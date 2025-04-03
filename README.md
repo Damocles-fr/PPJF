@@ -37,7 +37,7 @@ differents firefox addons for this browser etc...
 It's much better to use Notepad++ to view this and the scripts to edits.
 https://notepad-plus-plus.org/downloads/
 
-### 0. Install Jellyfin Server
+### 0. Download PPJF.zip
 
 Download https://github.com/Damocles-fr/PPJF/blob/main/PPJF.zip
 
