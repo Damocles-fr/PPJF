@@ -245,5 +245,4 @@ With this extension, when you select a text in Firefox, like a movie title or th
 You can Add Youtube, IMDB, Wikipedia, Steam, Google Maps, lots of legal website, or you can customize to any website search you want in the extension settings...
 
 ## Need Help?
-
-- Visit: [Jellyfin Forum Thread](https://forum.jellyfin.org/t-jellyfin-with-potplayer-and-clickable-link-to-the-video-s-local-folder) or **DM me** https://forum.jellyfin.org/u-damocles
+- Visit: [Jellyfin Forum Thread](https://forum.jellyfin.org/t-guide-jellyfin-with-potplayer) or **DM me** https://forum.jellyfin.org/u-damocles
