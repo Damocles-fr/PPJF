@@ -174,7 +174,7 @@ Everytime you launch Jellyfin service with a shorcut, there is an admin window, 
 - You can customize other settings if you want but it should work like that.
 - Save & exit
 
-### 12. I you want local files links, Install Local File Path Support, if not, go to 13.
+### 12. If you want local files links, Install Local File Path Support, if not, go to 13.
 
 - LibreWolf, Install **Local Filesystem Links** extension from:
   - [https://addons.mozilla.org/fr/firefox/addon/local-filesystem-links/](https://addons.mozilla.org/fr/firefox/addon/local-filesystem-links/)
