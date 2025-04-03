@@ -122,7 +122,7 @@ http://localhost:8096 and librewolf.exe path C:\Program Files\LibreWolf\librewol
   ```
 Jellyfin.bat detects when there is no more "LibreWolf.exe" process running, then it stop Jellyfin server service process.
 
-### 7. Install ViolentMonkey and my custom scripts
+### 7. Install ViolentMonkey and my scripts
 
 - In Librewolf, install ViolentMonkey extension
 https://addons.mozilla.org/fr/firefox/addon/violentmonkey/
