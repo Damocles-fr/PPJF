@@ -115,6 +115,7 @@ start "" "C:\Program Files\LibreWolf\librewolf.exe" -url "http://localhost:8096/
 tasklist | find /i "librewolf.exe" >nul
 
   ```
+  ```
 
 - If your Jellyfin Server is not set the default adress "http://localhost:8096/"
 	Edit the two `.js` scripts to replace "http://localhost:8096/ with your Jellyfin web URL :
