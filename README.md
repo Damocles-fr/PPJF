@@ -15,11 +15,12 @@ This tutorial explains how to set up Jellyfin Server on Windows to:
 
 Please use Notepad++
 Jellyfin Server is installed as a service.
-All applications (Jellyfin, PotPlayer, LibreWolf) are installed in their **default paths** on drive C. Not tested with Chrome – using LibreWolf is recommended for this setup.
-I strongly recommend to install LibreWolf separately from your main browser. You can install Firefox/LibreWolf/Nightly/Any fork on the same computer.
+All applications (Jellyfin, PotPlayer, LibreWolf) are installed in their **default paths** on drive C.
+Not tested with Chrome – using LibreWolf is recommended for this setup.
+I strongly recommend to install LibreWolf separately from your main browser.
+You can install Firefox/LibreWolf/Nightly/Any fork on the same computer.
 This allows to start the Jellyfin server automatically while launching the web interface and to stop jellyfin server after closing it.
-Also this way you launch Jellyfin directly in full-screen mode and/or hide the browser menu bar, as well as enabling separate configurations such as a default zoom of 120%,
-differents firefox addons for this browser etc...
+Also this way you launch Jellyfin directly in full-screen mode and/or hide the browser menu bar, as well as enabling separate configurations such as a default zoom of 120%, differents firefox addons for this browser etc...
 
 ---
 
