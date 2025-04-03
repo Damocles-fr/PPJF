@@ -194,7 +194,7 @@ https://github.com/AWolf81/webextension_local_filesystem_links-native-host-binar
 - Now go to LibreWolf on the left side panel
 - Uncheck ResistFingerprinting
 - If you use local files links, Go to Extensions in the settings page, then Local Filesystem Links, Option
-		Check the first box, check the second if you also want a folder icon next to the folder paths, and put 0 in Retries on failure.
+		Check the first box, check the second if you also want a folder icon next to the folder paths, check "Reveal link (open containing folder)" and put 0 in Retries on failure.
 
 
 ### 14. Adjust LibreWolf Full-Screen Settings, facultatif
