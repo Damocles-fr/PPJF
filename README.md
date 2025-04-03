@@ -79,9 +79,9 @@ With nine files in it.
 Here, the weird "^D\\" "\\" and ":\\?" are completely normal phenomenon, please don't ask me why, and just don't touch it if it works.
 
 Replace all and ONLY the letter `D` and `T` with your Jellyfin media library drive letters.
-Then, in the second part, replace ONLY the path after ":\\?" and ":\" with your jellyfin library corresponding paths.
-Add as many lines as different library and drives you use with jellyfin.
-Here for exemple with two media library in Jellyfin located in "D:\folder\yourlibrary" and "T:\Media" :
+Then, in the second part, replace ONLY the path after ":\\?" and ":\" with your jellyfin library FIRST ROOT folder corresponding to the paths.
+Add as many lines as drives and root folder you use with jellyfin.
+Here for exemple with four media library in Jellyfin located in "D:\folder\folder2\yourlibrary" and "D:\folder\anotherlibrary" and "D:\differentlibraries\..." and "T:\Media" :
 
   ```# Corriger les chemins de base (uniquement au début de la chaîne)
 $path = $path -replace "^D\\", "D:\"
@@ -90,7 +90,8 @@ $path = $path -replace "^D/", "D:\"
 $path = $path -replace "^T/", "T:\"
 
 # Assurer les chemins spécifiques
-$path = $path -replace "D:\\?folder\yourlibrary", "D:\folder\yourlibrary"
+$path = $path -replace "D:\\?folder\", "D:\folder\"
+$path = $path -replace "D:\\?differentlibraries\", "D:\differentlibraries\"
 $path = $path -replace "T:\\?Media", "T:\Media"
   ```
   
