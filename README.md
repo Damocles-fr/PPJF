@@ -76,7 +76,7 @@ With nine files in it.
 
 - Open potplayer.ps1 with **Notepad++** or Edit/Modify
 
-Here, the weird "^D\\" "\\" and ":\\?" are completely normal phenomena, please don't ask me why, and just don't touch it if it works.
+Here, the weird "^D\\" "\\" and ":\\?" are completely normal phenomenon, please don't ask me why, and just don't touch it if it works.
 
 Replace all and ONLY the letter `D` and `T` with your Jellyfin media library drive letters.
 Then, in the second part, replace ONLY the path after ":\\?" and ":\" with your jellyfin library corresponding paths.
