@@ -103,25 +103,23 @@ http://localhost:8096 and librewolf.exe path C:\Program Files\LibreWolf\librewol
 - If you use those settings, default settings, skip to 7.
 - If not, edit the files.
 - In Jellyfin.bat modify it for your **LibreWolf/Firefox path**, **process name** (Firefox.exe or LibreWolf.exe), and **Jellyfin URL**:
-
   ```
-curl -s http://localhost:8096 > nul
-if %errorlevel% neq 0 (ping -n 1 -w 100 127.0.0.1 > nul & goto waitForServer)
-start "" "C:\Program Files\LibreWolf\librewolf.exe" -url "http://localhost:8096/web/index.html#/home.html"
+  curl -s http://localhost:8096 > nul
+	if %errorlevel% neq 0 (ping -n 1 -w 100 127.0.0.1 > nul & goto waitForServer)
+	start "" "C:\Program Files\LibreWolf\librewolf.exe" -url "http://localhost:8096/web/index.html#/home.html"
 
 
-tasklist | find /i "librewolf.exe" >nul
-
-
+	tasklist | find /i "librewolf.exe" >nul
   ```
 
 - If your Jellyfin Server is not set the default adress "http://localhost:8096/"
 	Edit the two `.js` scripts to replace "http://localhost:8096/ with your Jellyfin web URL :
-
-  ```javascript
-  // @match        http://localhost:8096/web/index.html
   ```
+  javascript
+  // @match        http://localhost:8096/web/index.html
 
+
+  ```
 Jellyfin.bat detects when there is no more "LibreWolf.exe" process running, then it stop Jellyfin server service process.
 
 ### 7. Install ViolentMonkey and my custom scripts
