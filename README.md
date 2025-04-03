@@ -109,12 +109,10 @@ curl -s http://localhost:8096 > nul
 if %errorlevel% neq 0 (ping -n 1 -w 100 127.0.0.1 > nul & goto waitForServer)
 start "" "C:\Program Files\LibreWolf\librewolf.exe" -url "http://localhost:8096/web/index.html#/home.html"
 
-  ```
-  ```
 
 tasklist | find /i "librewolf.exe" >nul
 
-  ```
+
   ```
 
 - If your Jellyfin Server is not set the default adress "http://localhost:8096/"
