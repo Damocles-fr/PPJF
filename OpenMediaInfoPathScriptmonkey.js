@@ -14,7 +14,7 @@
     function replaceTextWithLinks(node) {
         if (node.nodeType === Node.TEXT_NODE) {
             let text = node.nodeValue;
-            let regex = /\b([DT]:\\(?:[^\\]+\\)*[^\\]+\.(mkv|mp4|avi))\b/g; // Détecte les chemins vidéo
+            let regex = /\b([A-Z]):\\(?:[^\\]+\\)*[^\\]+\.(mkv|mp4|avi)\b/gi; // Détecte les chemins vidéo
 
             if (regex.test(text)) {
                 let span = document.createElement("span");
