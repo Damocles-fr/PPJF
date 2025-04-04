@@ -35,7 +35,7 @@ Also this way you launch Jellyfin directly in full-screen mode and/or hide the b
 ---
 
 ## Installation Steps
-It's much better to use Notepad++ to view this and the scripts to edits.
+It's better to use Notepad++ to view this and to edit the scripts.
 https://notepad-plus-plus.org/downloads/
 
 ### 0. Download PPJF.zip
