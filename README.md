@@ -37,7 +37,6 @@ Also this way you launch Jellyfin directly in full-screen mode and/or hide the b
 ## Installation Steps
 It's much better to use Notepad++ to view this and the scripts to edits.
 https://notepad-plus-plus.org/downloads/
-If you use a custom Jellyfin skin, it may not be entirely fonctional and need to edit the two .js files to adapt them to you .css skin. It depends of the skins, it may work too.
 
 ### 0. Download PPJF.zip
 
