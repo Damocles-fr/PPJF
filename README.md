@@ -205,7 +205,7 @@ Everytime you launch Jellyfin service with a shorcut, there is an admin window, 
 - There, right click and "paste as shorcut"
 - Now, you can right click on it and Send to Desktop (Create a shortcut)
 - Or Right click on it, copy, then "paste as shorcut" anywhere you want, rename it and change the icon.
-- if you want to make it looks like an app, without any tabs and firefox bars edit the .bat and ad add -kiosk at the line 16 next to -url
+- if you want to make it looks like an app, without any tabs and firefox bars edit the .bat and add -kiosk at the line 16 next to -url
 
 ### 17. Optionnal : Customize a shorcut (without start/stop the Jellyfin server)
 - On your desktop, right click, new shortcut, enter : "C:\Program Files\LibreWolf\librewolf.exe" http://localhost:8096/web/index.html#/home.html
