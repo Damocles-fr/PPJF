@@ -9,7 +9,7 @@ This tutorial explains how to set up Jellyfin Server on Windows to:
 
     Optionnal : Start and stop the Jellyfin server automatically at launching the web interface and closing it.
 	
-	Bonus : Select text and one click search selection on IMDB, Youtube, or any websites
+	Bonus : Select text and one click search selection on IMDB, YOUTUBE, or any websites
 
 ---
 
@@ -21,7 +21,7 @@ This tutorial explains how to set up Jellyfin Server on Windows to:
 
 ## Security Notice
 
-- For the optionnal local folder link, you need to install "native-app-setup.exe" from the firefox extension "Local Filesystem Links" by austrALIENsun, AWolf
+- For the optionnal local folder link, you need to install "native-app-setup.exe" and the firefox extension "Local Filesystem Links" by austrALIENsun, AWolf
 [GitHub Repository](https://github.com/feinstaub/webextension_local_filesystem_links)
 - If you have security concerns, feel free not to install it.
 - I have no affiliation with this extension or its creators.
@@ -30,6 +30,8 @@ This tutorial explains how to set up Jellyfin Server on Windows to:
 ---
 
 ## Installation Steps
+It's better to use Notepad++ to view this and the scripts to edits.
+https://notepad-plus-plus.org/downloads/
 
 ### 0. Download PPJF.zip
 
@@ -204,21 +206,21 @@ Everytime you launch Jellyfin service with a shorcut, there is an admin window, 
 - Now, you can right click on it and Send to Desktop (Create a shortcut)
 - Or Right click on it, copy, then "paste as shorcut" anywhere you want, rename it and change the icon.
 
-### 16. Optionnal : Customize a shorcut (without start/stop the Jellyfin server)
+### 17. Optionnal : Customize a shorcut (without start/stop the Jellyfin server)
 - On your desktop, right click, new shortcut, enter : "C:\Program Files\LibreWolf\librewolf.exe" http://localhost:8096/web/index.html#/home.html
 - Or if you want to make it looks like an app, always fullscreen without tabs and firefox bars : "C:\Program Files\LibreWolf\librewolf.exe" -kiosk http://localhost:8096/web/index.html#/home.html
 - Name it Jellyfin, on the new icon shortcut, right click, change icon, Browser... , 
 - Go to Jellyfin icon C:\Program Files\Jellyfin\Server
 - Or you can Bookmark Jellyfin or make it the start page of Librewolf
 
-### 17. Optionnal : BONUS 
+### 18. Optionnal : BONUS 
 - Swift Selection Search by Daniel Lobo
 https://addons.mozilla.org/fr/firefox/addon/swift-selection-search/
 With this extension, when you select a text in the browser, like a movie title or the name of an actor, a box appear with the logo of websites.
 - Click on it and it automatically go to a new tab and search on the website the selected text
 You can Add IMDB, Youtube, Wikipedia, Steam, Google Maps, translators, lots of legal websites, or you can customize to any website search you want in the extension settings...
 
-### 18. Optionnal : Files in C:\ProgramData\PotPlayerJellyfin
+### 19. Optionnal : Files in C:\ProgramData\PotPlayerJellyfin
 - potplayer.ps1 : Do not delete. Main Script.
 - potplayer.reg : Do not delete. You may need to run it, especially after a Potplayer Update.
 - README.md : You are reading it right now
