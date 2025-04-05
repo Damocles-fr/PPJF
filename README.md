@@ -30,8 +30,6 @@ This tutorial explains how to set up Jellyfin Server on Windows to:
 ---
 
 ## Installation Steps
-It's better to use Notepad++ to view this and the scripts to edits.
-https://notepad-plus-plus.org/downloads/
 
 ### 0. Download PPJF.zip
 
