@@ -240,4 +240,4 @@ Should be fine but if it happens too often, you can add a line to the .bat to ru
 
 ## Need Help?
 - Visit: [Jellyfin Forum Thread](https://forum.jellyfin.org/t-guide-jellyfin-with-potplayer) or **DM me** https://forum.jellyfin.org/u-damocles
-- GitHub https://github.com/Damocles-fr/PPJF/tree/main
+- GitHub https://github.com/Damocles-fr/PPJF/
