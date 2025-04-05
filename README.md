@@ -21,7 +21,7 @@ This tutorial explains how to set up Jellyfin Server on Windows to:
 
 ## Security Notice
 
-- For the optionnal local folder link, you need to install "LienExplorerFirefoxnative-app-setup.exe" and the firefox extension "Local Filesystem Links" by austrALIENsun, AWolf
+- For the optionnal local folder link, you need to install "native-app-setup.exe" from the firefox extension "Local Filesystem Links" by austrALIENsun, AWolf
 [GitHub Repository](https://github.com/feinstaub/webextension_local_filesystem_links)
 - If you have security concerns, feel free not to install it.
 - I have no affiliation with this extension or its creators.
