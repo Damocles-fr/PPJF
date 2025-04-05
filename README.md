@@ -206,10 +206,12 @@ Everytime you launch Jellyfin service with a shorcut, there is an admin window, 
 - Now, you can right click on it and Send to Desktop (Create a shortcut)
 - Or Right click on it, copy, then "paste as shorcut" anywhere you want, rename it and change the icon.
 - if you want to make it looks like an app, without any tabs and firefox bars edit the .bat and add -kiosk at the line 16 next to -url
+ 	- -kiosk don't work with local file links and prevent from using new tabs or 18. Bonus, use Step 8 and 9 instead
 
 ### 17. Optionnal : Customize a shorcut (without start/stop the Jellyfin server)
 - On your desktop, right click, new shortcut, enter : "C:\Program Files\LibreWolf\librewolf.exe" http://localhost:8096/web/index.html#/home.html
 - Or if you want to make it looks like an app, without any tabs and firefox bars, add -kiosk : "C:\Program Files\LibreWolf\librewolf.exe" -kiosk http://localhost:8096/web/index.html#/home.html
+  	- -kiosk don't work with local file links and prevent from using new tabs or 18. Bonus, use Step 8 and 9 instead
 - Name it Jellyfin, on the new icon shortcut, right click, change icon, Browser... , C:\Program Files\Jellyfin\Server, select the icon
 - For having jellyfin icon instead of LibreWolf in the Windows taskbar, go C:\Program Files\LibreWolf and do the same with LibreWolf.exe
 - Or you can just Bookmark Jellyfin or make it the start page of Librewolf
