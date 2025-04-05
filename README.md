@@ -208,7 +208,7 @@ Everytime you launch Jellyfin service with a shorcut, there is an admin window, 
 
 ### 17. Optionnal : Customize a shorcut (without start/stop the Jellyfin server)
 - On your desktop, right click, new shortcut, enter : "C:\Program Files\LibreWolf\librewolf.exe" http://localhost:8096/web/index.html#/home.html
-- Or if you want to make it looks like an app, always fullscreen without tabs and firefox bars : "C:\Program Files\LibreWolf\librewolf.exe" -kiosk http://localhost:8096/web/index.html#/home.html
+- Or if you want to make it looks like an app, without any tabs and firefox bars : "C:\Program Files\LibreWolf\librewolf.exe" -kiosk http://localhost:8096/web/index.html#/home.html
 - Name it Jellyfin, on the new icon shortcut, right click, change icon, Browser... , 
 - Go to Jellyfin icon C:\Program Files\Jellyfin\Server
 - Or you can Bookmark Jellyfin or make it the start page of Librewolf
