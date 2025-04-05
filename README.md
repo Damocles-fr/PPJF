@@ -46,7 +46,7 @@ Download https://github.com/Damocles-fr/PPJF/blob/main/PPJF.zip
 If you put it anywhere else, adapt any lines with your own path.
 
 so you should have C:\ProgramData\PotPlayerJellyfin\
-With nine files in it.
+With eight files in it.
 
 ### 2. Install PotPlayer
 
