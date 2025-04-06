@@ -233,7 +233,7 @@ You can Add IMDB, Youtube, Wikipedia, Steam, Google Maps, translators, lots of l
 
 ## IMPORTANT ##
 - Sometimes if it stop working, because of idk, **PotPlayer updates** or some specific settings change, just **re-run** `PotPlayerMini64.reg`.
-Should be fine but if it happens too often, you can add a line to the .bat to run PotPlayerMini64.reg everytime or at system startup.
+Should be fine but if it happens too often, you can add a line or create .bat to run PotPlayerMini64.reg everytime or at system startup.
 - Not tested with NAS or network drives, let me know if it works, if not, .ps1 may need some tweaking.
 - [Start and stop the Jellyfin server] If you close the .bat (black window) before closing the browser, the Jellyfin Server will keep running in the background.
 - [Start and stop the Jellyfin server] Go to Windows `services.msc` **Jellyfin** **Startup type** **Manual** after each Jellyfin Server updates.
