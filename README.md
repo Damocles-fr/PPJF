@@ -5,23 +5,23 @@ This tutorial explains how to set up Jellyfin Server on Windows to:
 
     Launch medias from the Jellyfin web interface directly in PotPlayer.
 
-    Optionnal :  One click link to the corresponding media local folder from the Jellyfin media information panel.
+    Optional :  One click link to the corresponding media local folder from the Jellyfin media information panel.
 
-    Optionnal : Start and stop the Jellyfin server automatically at launching the web interface and closing it.
-	
-	Bonus : Select text and one click search selection on IMDB, YOUTUBE, or any websites
+    Optional : Start and stop the Jellyfin server automatically at launching the web interface and closing it.
+    
+    Bonus : Select text and one click search selection on IMDB, YOUTUBE, or any websites
 
 ---
 
 - Not tested with Chrome – using LibreWolf is recommended and easier for this setup.
 - You can install multiple Firefox/LibreWolf/Nightly/Any fork on the same computer. I strongly recommend to install LibreWolf separately from your main browser.
 - This way you can launch Jellyfin directly in full-screen mode and/or hide the browser menu bar, as well as enabling separate configurations such as a default zoom of 120%, differents firefox addons for this browser etc...
-- This also allows to use the optionnal feature to start Jellyfin server automatically while launching the web interface and to stop jellyfin server after closing the window.
+- This also allows to use the Optional feature to start Jellyfin server automatically while launching the web interface and to stop jellyfin server after closing the window.
 ---
 
 ## Security Notice
 
-- For the optionnal local folder link, you need to install "native-app-setup.exe" and the firefox extension "Local Filesystem Links" by austrALIENsun, AWolf
+- For the Optional local folder link, you need to install "native-app-setup.exe" and the firefox extension "Local Filesystem Links" by austrALIENsun, AWolf
 [GitHub Repository](https://github.com/feinstaub/webextension_local_filesystem_links)
 - If you have security concerns, feel free not to install it.
 - I have no affiliation with this extension or its creators.
@@ -74,7 +74,7 @@ https://addons.mozilla.org/fr/firefox/addon/violentmonkey/
 - Paste all into the ViolentMonkey editor page you just kept open in LibreWolf.
 - Click Save and Exit on upper right corner
 
-- Optionnal : If you want Local Files Links in jellyfin media info
+- Optional : If you want Local Files Links in jellyfin media info
 	- Do the same in ViolentMonkey, +, new, delete all the lines, but copy/paste from the file OpenMediaInfoPathScriptmonkey.js, save and exit.
 
 ### 5. Enable PowerShell Scripts Execution (Windows)
@@ -95,7 +95,7 @@ https://addons.mozilla.org/fr/firefox/addon/violentmonkey/
 
 - Run `PotPlayerMini64.reg` and confirm changes.
 
-### 7. Optionnal : Preserving User login and settings in the browser
+### 7. Optional : Preserving User login and settings in the browser
 
 - For the browser to remember your session settings and passwords.
 - In Librewolf, go to settings, then Privacy & Security on the left side panel
@@ -105,7 +105,7 @@ https://addons.mozilla.org/fr/firefox/addon/violentmonkey/
 - Now go to LibreWolf on the left side panel
 - Uncheck ResistFingerprinting
 
-### 8. Optionnal : Adjust LibreWolf Full-Screen Settings
+### 8. Optional : Adjust LibreWolf Full-Screen Settings
 
 - Only if you want to use Jellyfin in Full-screen mod and still be able to see the Windows Task bar
 - In LibreWolf
@@ -117,12 +117,12 @@ https://addons.mozilla.org/fr/firefox/addon/violentmonkey/
   full-screen-api.ignore-widgets true
   ```
 
-### 9. Optionnal : Auto enable Full-Screen at launch
+### 9. Optional : Auto enable Full-Screen at launch
 
 - Install **Auto Fullscreen** extension by *tazeat*.
 https://addons.mozilla.org/en-US/firefox/addon/autofullscreen/
 
-### 10. Optionnal : Needed if you don't use default path and URL for Jellyfin, Librewolf and PotPlayer
+### 10. Optional : Needed if you don't use default path and URL for Jellyfin, Librewolf and PotPlayer
 
 - Edit `Jellyfin.bat` `OpenMediaInfoPathScriptmonkey.js` & `OpenWithPotplayerUserscript.js`
 - Those files are set to LibreWolf default path and Jellyfin Server default URL :
@@ -151,7 +151,7 @@ Jellyfin.bat detects when there is no more "LibreWolf.exe" process running, then
 - If you use a different Potplayer installation path, modify the last line that is set to PotPlayer defaut installation folder C:\Program Files\DAUM\PotPlayer\PotPlayerMini64.exe
 
 
-### 11. Optionnal : Media info link to the local file folder, if you don't want it, skip to 12.
+### 11. Optional : Media info link to the local file folder, if you don't want it, skip to 12.
 
 - LibreWolf, Install **Local Filesystem Links** extension from:
   - [https://addons.mozilla.org/fr/firefox/addon/local-filesystem-links/](https://addons.mozilla.org/fr/firefox/addon/local-filesystem-links/)
@@ -164,7 +164,7 @@ https://github.com/AWolf81/webextension_local_filesystem_links-native-host-binar
 - Uncheck the first box, check the second if you also want a folder icon next to the folder paths
 - Check "Reveal link (open containing folder)"
 
-### 12. Optionnal : Next steps are only required if you want the Jellyfin server to be only running when you use it on your PC. Otherwise skip to 17.
+### 12. Optional : Next steps are only required if you want the Jellyfin server to be only running when you use it on your PC. Otherwise skip to 17.
 
 - Install Jellyfin Server as a service
 - Choose **“Install as a Service”** during the installation process
@@ -208,7 +208,7 @@ Everytime you launch Jellyfin service with a shorcut, there is an admin window, 
 - if you want to make it looks like an app, without any tabs and firefox bars edit the .bat and add -kiosk at the line 16 next to -url
  	- -kiosk don't work with local file links and prevent from using new tabs or 18. Bonus, use Step 8 and 9 instead
 
-### 17. Optionnal : Customize a shorcut (without start/stop the Jellyfin server)
+### 17. Optional : Customize a shorcut (without start/stop the Jellyfin server)
 - On your desktop, right click, new shortcut, enter : "C:\Program Files\LibreWolf\librewolf.exe" http://localhost:8096/web/index.html#/home.html
 - Or if you want to make it looks like an app, without any tabs and firefox bars, add -kiosk : "C:\Program Files\LibreWolf\librewolf.exe" -kiosk http://localhost:8096/web/index.html#/home.html
   	- -kiosk don't work with local file links and prevent from using new tabs or 18. Bonus, use Step 8 and 9 instead
@@ -216,14 +216,14 @@ Everytime you launch Jellyfin service with a shorcut, there is an admin window, 
 - For having jellyfin icon instead of LibreWolf in the Windows taskbar, go C:\Program Files\LibreWolf and do the same with LibreWolf.exe
 - Or you can just Bookmark Jellyfin or make it the start page of Librewolf
 
-### 18. Optionnal : BONUS 
+### 18. Optional : BONUS 
 - Swift Selection Search by Daniel Lobo
 https://addons.mozilla.org/fr/firefox/addon/swift-selection-search/
 With this extension, when you select a text in the browser, like a movie title or the name of an actor, a box appear with the logo of websites.
 - Click on it and it automatically go to a new tab and search on the website the selected text
 You can Add IMDB, Youtube, Wikipedia, Steam, Google Maps, translators, lots of legal websites, or you can customize to any website search you want in the extension settings...
 
-### 19. Optionnal : Files in C:\ProgramData\PotPlayerJellyfin
+### 19. Optional : Files in C:\ProgramData\PotPlayerJellyfin
 - potplayer.ps1 : Do not delete. Main Script.
 - potplayer.reg : Do not delete. You may need to run it, especially after a Potplayer Update.
 - README.md : You are reading it right now
