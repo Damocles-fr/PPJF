@@ -35,11 +35,11 @@ https://notepad-plus-plus.org/downloads/
 
 ### 0. Download PPJF.zip
 
-Download [https://github.com/Damocles-fr/PPJF/blob/main/PPJF.zip](https://github.com/Damocles-fr/PPJF/releases/tag/v1.0)
+Download PPJF.zip [https://github.com/Damocles-fr/PPJF/blob/main/PPJF.zip](https://github.com/Damocles-fr/PPJF/releases/tag/v1.0)
 
 ### 1. Place Required Files
 
-- Move the PotPlayerJellyfin folder to :
+- Extract and move the PotPlayerJellyfin folder to :
   ```
   C:\ProgramData\
   ```
