@@ -26,6 +26,29 @@ $path = $path -replace "^\\\\\?\\UNC\\", "\\"
 # Cas : \\?\X:\... => X:\...
 $path = $path -replace "^\\\\\?\\", ""
 
+# Tenter de remplacer un chemin partiel style "\movies\..." par un lecteur réseau mappé (ex : "M:\")
+$drives = Get-PSDrive -PSProvider FileSystem | Where-Object { $_.DisplayRoot -ne $null }
+
+foreach ($drive in $drives) {
+    # Exemple : si le lecteur M: pointe vers \\NAS\movies, on cherche à faire correspondre "\movies"
+    $remotePath = $drive.DisplayRoot.ToLower()
+    $driveLetter = $drive.Name + ":\"
+
+    # On récupère le dernier dossier du partage (ex: "movies")
+    $shareName = Split-Path $remotePath -Leaf
+
+    # Si le chemin commence par \movies\, on remplace par M:\ (ou autre lettre)
+    if ($path -match "^\\$shareName\\") {
+        $path = $path -replace "^\\$shareName\\", "$driveLetter"
+        break  # On arrête dès qu’on a trouvé une correspondance
+    }
+}
+
+# Supprimer un seul backslash initial si ce n’est ni un chemin UNC ni un chemin avec lettre de lecteur
+if ($path -match "^\\[^\\]" -and -not ($path -match "^[A-Z]:") -and -not ($path -match "^\\\\")) {
+    $path = $path.Substring(1)
+}
+
 # Corriger tous les chemins en début de chaîne pour tous les disques
 $path = $path -replace "^([A-Z]):\\", '$1:\'
 $path = $path -replace "^([A-Z])/", '$1:\'
