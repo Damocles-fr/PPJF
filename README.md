@@ -3,7 +3,7 @@
 
 This tutorial explains how to set up Jellyfin Server on Windows to:
 
-    Launch medias from the Jellyfin web interface directly in PotPlayer.
+    Launch medias from the Jellyfin web interface directly in PotPlayer. Steps 1 to 6 required.
 
     Optional :  One click link to the corresponding media local folder from the Jellyfin media information panel.
 
@@ -30,6 +30,7 @@ This tutorial explains how to set up Jellyfin Server on Windows to:
 ---
 
 ## Installation Steps
+Steps 1 to 6 are required.
 It's better to use Notepad++ to view this and the scripts to edits.
 https://notepad-plus-plus.org/downloads/
 
