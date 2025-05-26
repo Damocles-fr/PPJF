@@ -94,6 +94,9 @@ https://addons.mozilla.org/fr/firefox/addon/violentmonkey/
 ### 6. Apply PotPlayer Registry Settings
 
 - Run `PotPlayerMini64.reg` and confirm changes.
+- You may need to re-run PotPlayerMini64.reg after major Potplayer Updates.
+- You can test if it works now.
+- The next steps are optional, but I recommend checking them out for quality-of-life improvements
 
 ### 7. Optional : Preserving User login and settings in the browser
 
