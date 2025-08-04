@@ -194,6 +194,7 @@ If it don't work with your already saved Jellyfin settings, you can reset some s
   - Right-click it and select **Properties**.
   - In the **Startup type** dropdown, select **Manual**. (so it will start only via shortcut and not at the system boot)
   - Click **Apply** and then **OK**.
+  - This should be done again after each Jellyfin Server Updates
 
 ### 14. Configure Windows Admin Prompt Skip
 
