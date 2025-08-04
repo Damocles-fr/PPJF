@@ -187,7 +187,7 @@ https://github.com/AWolf81/webextension_local_filesystem_links-native-host-binar
 If it don't work with your already saved Jellyfin settings, you can reset some settings by deleting files in C:\ProgramData\Jellyfin\Server\config like network.xml and maybe other files too idk.
 /!\ This will reset your server settings /!\
 
-### 13. Configure Jellyfin Service to only Start with Librewolf and stop at closing Librewolf
+### 13. Configure Jellyfin Service to only Start with the browser and stop at closing it
 
 - For auto-install with optional .bat scripts support, download and follow the instruction from [[WIP][FULL]JellyfinServiceAutomation.zip](https://github.com/Damocles-fr/PPJF/releases/tag/v1.0)
 - Next Steps 13. 14. 15. 16. 17. are for manual installation of JellyfinServiceAutomation
