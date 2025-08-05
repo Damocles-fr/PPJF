@@ -22,7 +22,7 @@ This tutorial explains how to set up Jellyfin Server on Windows to:
 - This also allows to use the Optional feature to start Jellyfin server automatically while launching the web interface and to stop jellyfin server after closing the window.
 ---
 
-# Jellyfin with PotPlayer – PPJF INSTALLATION  ##
+# Jellyfin with PotPlayer – PPJF - INSTALLATION  ##
 ## Installation Steps
 
 - Steps 1 to 6 are required.
