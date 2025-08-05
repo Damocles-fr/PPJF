@@ -190,7 +190,7 @@ If it don't work with your already saved Jellyfin settings, you can reset some s
 
 ### 13. Configure Jellyfin Service to only Start with the browser and stop at closing it
 
-- For auto-install with optional .bat scripts support, download and follow the instruction from [[WIP][FULL]JellyfinServiceAutomation.zip](https://github.com/Damocles-fr/PPJF/releases/tag/v1.0)
+- For auto-install with optional .bat scripts support, download and follow the instruction from the Readme : [[WIP]JellyfinServiceAutomation.zip](https://github.com/Damocles-fr/PPJF/releases/tag/v1.0)
 - Next Steps 13. 14. 15. 16. 17. are for manual installation of JellyfinServiceAutomation
 - Search and Open for **Services**. in the windows start menu. Or Press `Win + R`, type `services.msc`, and press `Enter`.
   - Scroll down to find **Jellyfin** in the list.
