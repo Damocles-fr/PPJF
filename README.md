@@ -12,9 +12,9 @@ This tutorial explains how to set up Jellyfin Server on Windows to:
     Bonus : Select text and one click search selection on IMDB, YOUTUBE, or any websites
 
 ---
-### -Update- for Optional : Jellyfin Service Automation : Cleaner solution, no console popup window, multi browser auto-install, possibility for custom .bat at launch, notification etc..  :
+### -Update- for Optional : Jellyfin Service Automation, Start and stop. Cleaner solution, no console popup window, multi browser auto-install, possibility for custom .bat at launch, notification etc..  :
 - Download and follow the instruction from the Readme in : [WIP.JellyfinServiceAutomation.zip](https://github.com/Damocles-fr/PPJF/releases/tag/v1.0)
-- Standalone and replace Steps 13. 14. 15. 16. 17. that are for manual installation of the old version of JellyfinServiceAutomation
+- Standalone and replace Steps 13. 14. 15. 16. 17. that are for manual installation of an older version of JellyfinServiceAutomation
 ---
 
 - Not tested with Chrome – using LibreWolf is recommended and easier for this setup.
@@ -196,7 +196,7 @@ If it don't work with your already saved Jellyfin settings, you can reset some s
 
 - For auto-install, cleaner solution, no console popup window, all major browsers support, possibility for custom .bat at launch, notifications :
   Download and follow the instructions from the Readme in : [WIP.JellyfinServiceAutomation.zip](https://github.com/Damocles-fr/PPJF/releases/tag/v1.0)
-- Next Steps 13. 14. 15. 16. 17. are for manual installation of the older version of JellyfinServiceAutomation
+- Next Steps 13. 14. 15. 16. 17. are for manual installation of an older version of JellyfinServiceAutomation
 - Search and Open for **Services**. in the windows start menu. Or Press `Win + R`, type `services.msc`, and press `Enter`.
   - Scroll down to find **Jellyfin** in the list.
   - Right-click it and select **Properties**.
