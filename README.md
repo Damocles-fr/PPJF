@@ -98,16 +98,17 @@ https://addons.mozilla.org/fr/firefox/addon/violentmonkey/
 - The next steps are optional, but I recommend checking them out for quality-of-life improvements
 - You can test if it works already.
 
-### If PotPlayer is lauching but fail to launch the media : Workaround
+### If PotPlayer starts but fail to launch the media : Workaround
 - Edit "potplayer.ps1" located in "C:\ProgramData\PotPlayerJellyfin"
   	- At the end of the file, just before : echo "Chemin normalisé : $path"
   	- Add this line : $path = $path -replace "\\share\\SHAREFOLDER\\", "D:"
   	- In this, change "\\share\\SHAREFOLDER\\" with the start of the the wrong path shown if you click on "more info" when Potplayer fail to launch the media from Jellyfin
-  	  It should be everything that appear here but not in the Windows explorer path of your movies)
+  	  It should be the part of the path that appear in "more info" but not in the Windows explorer path of your movies
   	- Add double slash \\ in your own path, they are essential
   	- Replace "D:" with the drive letter of your NAS or drive in Windows
   	- For exemple "$path = $path -replace "\\share\\_MEDIA\\", "D:""
-	That works for everything located in my NAS mounted as the D: drive in Windows. "\\share\\_MEDIA\\" depends of your NAS/drives configuration (see "more info" in Potplayer when it fail to launch the media from Jellyfin)
+	That works for everything located in my NAS mounted as the D: drive in Windows, so D:\FILMS, D:\SERIES etc.
+	"\\share\\_MEDIA\\" depends of your NAS/drives configuration (see "more info" in Potplayer when it fail to launch the media from Jellyfin to identify your issue)
 
 ### 7. Optional : Preserving User login and settings in the browser
 
@@ -251,17 +252,17 @@ You can Add IMDB, Youtube, Wikipedia, Steam, Google Maps, translators, lots of l
 ## IMPORTANT ##
 - Sometimes if it stop working, because of idk, **PotPlayer updates** or some specific settings change, just **re-run** `PotPlayerMini64.reg`.
 Should be fine but if it happens too often, you can add a line or create .bat to run PotPlayerMini64.reg everytime or at system startup.
-- Not tested with NAS or network drives, let me know if it works, if not, .ps1 may need some tweaking.
-- Workaround for NAS and network drives :
-  Edit "potplayer.ps1" located in "C:\ProgramData\PotPlayerJellyfin"
+- Workaround for some NAS and network drives :
+  - Edit "potplayer.ps1" located in "C:\ProgramData\PotPlayerJellyfin"
   	- At the end of the file, just before : echo "Chemin normalisé : $path"
   	- Add this line : $path = $path -replace "\\share\\SHAREFOLDER\\", "D:"
   	- In this, change "\\share\\SHAREFOLDER\\" with the start of the the wrong path shown if you click on "more info" when Potplayer fail to launch the media from Jellyfin
-  	  It should be everything that appear here but not in the Windows explorer path of your movies)
+  	  It should be the part of the path that appear in "more info" but not in the Windows explorer path of your movies
   	- Add double slash \\ in your own path, they are essential
   	- Replace "D:" with the drive letter of your NAS or drive in Windows
   	- For exemple "$path = $path -replace "\\share\\_MEDIA\\", "D:""
-	That works for everything located in my NAS mounted as the D: drive in Windows. "\\share\\_MEDIA\\" depends of your NAS/drives configuration (see "more info" in Potplayer when it fail to launch the media from Jellyfin)
+	That works for everything located in my NAS mounted as the D: drive in Windows, so D:\FILMS, D:\SERIES etc.
+	"\\share\\_MEDIA\\" depends of your NAS/drives configuration (see "more info" in Potplayer when it fail to launch the media from Jellyfin to identify your issue)
 - [Start and stop the Jellyfin server] Go to Windows `services.msc` **Jellyfin** **Startup type** **Manual** after each Jellyfin Server updates.
 
 ## Need Help?
