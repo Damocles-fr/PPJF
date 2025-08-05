@@ -96,7 +96,7 @@ https://addons.mozilla.org/fr/firefox/addon/violentmonkey/
 - Edit "potplayer.ps1" located in "C:\ProgramData\PotPlayerJellyfin"
   	- At the end of the file, just before : echo "Chemin normalisé : $path"
   	- Add this line : $path = $path -replace "\\share\\SHAREFOLDER\\", "D:"
-  	- In this, change "\\share\\SHAREFOLDER\\" with the start of the the wrong path shown if you click on "more info" when Potplayer fail to launch the media from Jellyfin
+  	- In this, change "\\share\\SHAREFOLDER\\" with the start of the the wrong path shown if you click on "more info" when Potplayer fail to launch the media from Jellyfin,
   	  It should be the part of the path that appear in "more info" but not in the Windows explorer path of your movies
   	- Add double slash \\ in your own path, they are essential
   	- Replace "D:" with the drive letter of your NAS or drive in Windows
@@ -260,7 +260,7 @@ Should be fine but if it happens too often, you can add a line or create .bat to
   - Edit "potplayer.ps1" located in "C:\ProgramData\PotPlayerJellyfin"
   	- At the end of the file, just before : echo "Chemin normalisé : $path"
   	- Add this line : $path = $path -replace "\\share\\SHAREFOLDER\\", "D:"
-  	- In this, change "\\share\\SHAREFOLDER\\" with the start of the the wrong path shown if you click on "more info" when Potplayer fail to launch the media from Jellyfin
+  	- In this, change "\\share\\SHAREFOLDER\\" with the start of the the wrong path shown if you click on "more info" when Potplayer fail to launch the media from Jellyfin,
   	  It should be the part of the path that appear in "more info" but not in the Windows explorer path of your movies
   	- Add double slash \\ in your own path, they are essential
   	- Replace "D:" with the drive letter of your NAS or drive in Windows
