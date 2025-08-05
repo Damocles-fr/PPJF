@@ -96,9 +96,7 @@ https://addons.mozilla.org/fr/firefox/addon/violentmonkey/
 - You may need to re-run PotPlayerMini64.reg after major Potplayer Updates.
 - The next steps are optional, but I recommend checking them out for quality-of-life improvements
 - You can test if it works already.
-```
-\\share\\SHAREFOLDER\\
-```
+
 ### If PotPlayer starts but fail to launch the media : Workaround
 - Edit "potplayer.ps1" located in ``` C:\ProgramData\PotPlayerJellyfin ```
   	- At the end of the file, just before : ``` echo "Chemin normalisé : $path" ```
