@@ -96,7 +96,7 @@ https://addons.mozilla.org/fr/firefox/addon/violentmonkey/
 ```
 ### If PotPlayer starts but fail to launch the media : Workaround
 - Edit "potplayer.ps1" located in "C:\ProgramData\PotPlayerJellyfin"
-  	- At the end of the file, just before : echo "Chemin normalisé : $path"
+  	- At the end of the file, just before : ``` echo "Chemin normalisé : $path" ```
   	- Add this line : ``` $path = $path -replace "\\share\\SHAREFOLDER\\", "D:" ```
   	- In this, change ``` "\\share\\SHAREFOLDER\\" ``` with the start of the the wrong path shown if you click on "more info" when Potplayer fail to launch the media from Jellyfin,
   	  It should be the part of the path that appear in "more info" but not in the Windows explorer path of your movies
@@ -260,7 +260,7 @@ You can Add IMDB, Youtube, Wikipedia, Steam, Google Maps, translators, lots of l
 Should be fine but if it happens too often, you can add a line or create .bat to run PotPlayerMini64.reg everytime or at system startup.
 - Workaround for some NAS and network drives :
 - Edit "potplayer.ps1" located in "C:\ProgramData\PotPlayerJellyfin"
-  	- At the end of the file, just before : echo "Chemin normalisé : $path"
+  	- At the end of the file, just before : ``` echo "Chemin normalisé : $path" ```
   	- Add this line : ``` $path = $path -replace "\\share\\SHAREFOLDER\\", "D:" ```
   	- In this, change ``` "\\share\\SHAREFOLDER\\" ``` with the start of the the wrong path shown if you click on "more info" when Potplayer fail to launch the media from Jellyfin,
   	  It should be the part of the path that appear in "more info" but not in the Windows explorer path of your movies
