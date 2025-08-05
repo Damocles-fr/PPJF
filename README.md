@@ -23,15 +23,6 @@ This tutorial explains how to set up Jellyfin Server on Windows to:
 - This also allows to use the Optional feature to start Jellyfin server automatically while launching the web interface and to stop jellyfin server after closing the window.
 ---
 
-## Security Notice
-
-- For the Optional local folder link, you need to install "native-app-setup.exe" and the firefox extension "Local Filesystem Links" by austrALIENsun, AWolf
-[GitHub Repository](https://github.com/feinstaub/webextension_local_filesystem_links)
-- If you have security concerns, feel free not to install it.
-- I have no affiliation with this extension or its creators.
-- Use a separate LibreWolf/Firefox installation to minimize risks.
-
----
 # Jellyfin with PotPlayer – PPJF INSTALLATION  ##
 ## Installation Steps
 
@@ -171,6 +162,15 @@ Jellyfin.bat detects when there is no more "LibreWolf.exe" process running, then
 
 
 ### 11. Optional : Media info link to the local file folder, if you don't want it, skip to 12.
+## Security Notice
+
+- For the Optional local folder link, you need to install "native-app-setup.exe" and the firefox extension "Local Filesystem Links" by austrALIENsun, AWolf
+[GitHub Repository](https://github.com/feinstaub/webextension_local_filesystem_links)
+- If you have security concerns, feel free not to install it.
+- I have no affiliation with this extension or its creators.
+- Use a separate LibreWolf/Firefox installation to minimize risks.
+
+---
 
 - LibreWolf, Install **Local Filesystem Links** extension from:
   - [https://addons.mozilla.org/fr/firefox/addon/local-filesystem-links/](https://addons.mozilla.org/fr/firefox/addon/local-filesystem-links/)
