@@ -98,7 +98,7 @@ https://addons.mozilla.org/fr/firefox/addon/violentmonkey/
   	- Add this line : $path = $path -replace "\\\share\\\SHAREFOLDER\\\", "D:"
   	- In this, change "\\\share\\\SHAREFOLDER\\\" with the start of the the wrong path shown if you click on "more info" when Potplayer fail to launch the media from Jellyfin,
   	  It should be the part of the path that appear in "more info" but not in the Windows explorer path of your movies
-  	- Add double backslash "\\\" instead of single backslash \ in your own path, they are essential
+  	- Add double backslash instead of single backslash "\" in your own path, they are essential
   	- Replace "D:" with the drive letter of your NAS or drive in Windows
   	- For exemple "$path = $path -replace "\\\share\\\_MEDIA\\\", "D:""
 	That works for everything located in my NAS mounted as the D: drive in Windows, so D:\FILMS, D:\SERIES etc.
@@ -257,16 +257,16 @@ You can Add IMDB, Youtube, Wikipedia, Steam, Google Maps, translators, lots of l
 - Sometimes if it stop working, because of idk, **PotPlayer updates** or some specific settings change, just **re-run** `PotPlayerMini64.reg`.
 Should be fine but if it happens too often, you can add a line or create .bat to run PotPlayerMini64.reg everytime or at system startup.
 - Workaround for some NAS and network drives :
-  - Edit "potplayer.ps1" located in "C:\ProgramData\PotPlayerJellyfin"
+- Edit "potplayer.ps1" located in "C:\ProgramData\PotPlayerJellyfin"
   	- At the end of the file, just before : echo "Chemin normalisé : $path"
-  	- Add this line : $path = $path -replace "\\share\\SHAREFOLDER\\", "D:"
-  	- In this, change "\\share\\SHAREFOLDER\\" with the start of the the wrong path shown if you click on "more info" when Potplayer fail to launch the media from Jellyfin,
+  	- Add this line : $path = $path -replace "\\\share\\\SHAREFOLDER\\\", "D:"
+  	- In this, change "\\\share\\\SHAREFOLDER\\\" with the start of the the wrong path shown if you click on "more info" when Potplayer fail to launch the media from Jellyfin,
   	  It should be the part of the path that appear in "more info" but not in the Windows explorer path of your movies
-  	- Add double backslash "\\" instead of single backslash in your own path, they are essential
+  	- Add double backslash instead of single backslash "\" in your own path, they are essential
   	- Replace "D:" with the drive letter of your NAS or drive in Windows
-  	- For exemple "$path = $path -replace "\\share\\_MEDIA\\", "D:""
+  	- For exemple "$path = $path -replace "\\\share\\\_MEDIA\\\", "D:""
 	That works for everything located in my NAS mounted as the D: drive in Windows, so D:\FILMS, D:\SERIES etc.
-	"\\share\\_MEDIA\\" depends of your NAS/drives configuration (see "more info" in Potplayer when it fail to launch the media from Jellyfin to identify your issue)
+	"\\\share\\\_MEDIA\\\" depends of your NAS/drives configuration (see "more info" in Potplayer when it fail to launch the media from Jellyfin to identify your issue)
 - [Start and stop the Jellyfin server] Go to Windows `services.msc` **Jellyfin** **Startup type** **Manual** after each Jellyfin Server updates.
 
 ## Need Help?
