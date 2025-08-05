@@ -53,7 +53,7 @@ With eight files in it.
 https://librewolf.net/installation/windows/
 - Default path: `C:\Program Files\LibreWolf`
 - if you want to use with your current browser or a different one, don't forget step 10
-- Local Filesystem Links extension needed for the optional links feature have minors security flaws, I recommend not to use your main browser with it.
+- "Local Filesystem Links extension" needed for the optional links feature have minors security flaws and display a notification in private mod, I recommend not to use your main browser with it.
 
 ### 4. Install ViolentMonkey and my scripts
 
