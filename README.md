@@ -1,4 +1,4 @@
-# PPJF
+# PPJF & Jellyfin Service Automation
 # Jellyfin with PotPlayer – Setup Guide  ##
 
 This tutorial explains how to set up Jellyfin Server on Windows to:
