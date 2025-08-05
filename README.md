@@ -100,7 +100,7 @@ https://addons.mozilla.org/fr/firefox/addon/violentmonkey/
   	- Add this line : ``` $path = $path -replace "\\share\\SHAREFOLDER\\", "D:" ```
   	- In this, change ``` "\\share\\SHAREFOLDER\\" ``` with the start of the the wrong path shown if you click on "more info" when Potplayer fail to launch the media from Jellyfin,
   	  It should be the part of the path that appear in "more info" but not in the Windows explorer path of your movies
-  	- Add double backslash ``` \\ ``` instead of single backslash "\" in your own path, they are essential
+  	- Add double backslash ``` \\ ``` instead of single backslash ``` \ ``` in your own path, they are essential
   	- Replace "D:" with the drive letter of your NAS or drive in Windows
   	- For exemple ``` "$path = $path -replace "\\share\\_MEDIA\\", "D:"" ```
 	That works for everything located in my NAS mounted as the D: drive in Windows, so D:\FILMS, D:\SERIES etc.
@@ -264,7 +264,7 @@ Should be fine but if it happens too often, you can add a line or create .bat to
   	- Add this line : ``` $path = $path -replace "\\share\\SHAREFOLDER\\", "D:" ```
   	- In this, change ``` "\\share\\SHAREFOLDER\\" ``` with the start of the the wrong path shown if you click on "more info" when Potplayer fail to launch the media from Jellyfin,
   	  It should be the part of the path that appear in "more info" but not in the Windows explorer path of your movies
-  	- Add double backslash ``` \\ ``` instead of single backslash "\" in your own path, they are essential
+  	- Add double backslash ``` \\ ``` instead of single backslash ``` \ ``` in your own path, they are essential
   	- Replace "D:" with the drive letter of your NAS or drive in Windows
   	- For exemple ``` "$path = $path -replace "\\share\\_MEDIA\\", "D:"" ```
 	That works for everything located in my NAS mounted as the D: drive in Windows, so D:\FILMS, D:\SERIES etc.
