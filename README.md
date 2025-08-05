@@ -250,10 +250,9 @@ You can Add IMDB, Youtube, Wikipedia, Steam, Google Maps, translators, lots of l
 ### 19. Optional : Files in C:\ProgramData\PotPlayerJellyfin
 - potplayer.ps1 : Do not delete. Main Script.
 - potplayer.reg : Do not delete. You may need to run it, especially after a Potplayer Update.
-- README.md : You are reading it right now
-- Jellyfin.bat, Jellyfin, JellyfinUAC, JellyfinUAC.xml : Only needed for the server start and stop and and shortcuts
+- Jellyfin.bat, Jellyfin, JellyfinUAC, JellyfinUAC.xml : Only needed for the server start and stop and and shortcuts without [WIP.JellyfinServiceAutomation.zip](https://github.com/Damocles-fr/PPJF/releases/tag/v1.0)
 - OpenMediaInfoPathScriptmonkey.js : backup file, it's in ViolentMonkey in your browser, only needed for local links
-- OpenWithPotplayerUserscript.js : backup file, it's in ViolentMonkey in your browser
+- OpenWithPotplayerUserscript.js : backup file of the main browser script, it's in ViolentMonkey in your browser
 
 ## IMPORTANT ##
 - Sometimes if it stop working, because of idk, **PotPlayer updates** or some specific settings change, just **re-run** `PotPlayerMini64.reg`.
@@ -270,6 +269,7 @@ Should be fine but if it happens too often, you can add a line or create .bat to
 	That works for everything located in my NAS mounted as the D: drive in Windows, so D:\FILMS, D:\SERIES etc.
 	``` "\\share\\\_MEDIA\\" ``` depends of your NAS/drives configuration (see "more info" in Potplayer when it fail to launch the media from Jellyfin to identify your issue)
 - [Start and stop the Jellyfin server] Go to Windows `services.msc` **Jellyfin** **Startup type** **Manual** after each Jellyfin Server updates.
+- Firefox extension "Dark Reader" breaks Jellyfin in browsers, desactivate it only for jellyfin : Go into Dark Reader settings while you have the Jellyfin page open (firefox menu bar), click to uncheck Jellyfin URL.
 
 ## Need Help?
 - Visit: [Jellyfin Forum Thread](https://forum.jellyfin.org/t-guide-jellyfin-with-potplayer) or **DM me** https://forum.jellyfin.org/u-damocles
