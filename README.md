@@ -163,19 +163,18 @@ Jellyfin.bat detects when there is no more "LibreWolf.exe" process running, then
 
 
 ### 11. Optional : Media info link to the local file folder, if you don't want it, skip to 12.
-# Security Notice
+--- Security Notice ---
 - For the Optional local folder link, you need to install "native-app-setup.exe" and the firefox extension "Local Filesystem Links" by austrALIENsun, AWolf
 [GitHub Repository](https://github.com/feinstaub/webextension_local_filesystem_links)
 - If you have security concerns, feel free not to install it.
 - I have no affiliation with this extension or its creators.
 - Use a separate LibreWolf/Firefox installation to minimize risks.
----
 
 - LibreWolf, Install **Local Filesystem Links** extension from:
   - [https://addons.mozilla.org/fr/firefox/addon/local-filesystem-links/](https://addons.mozilla.org/fr/firefox/addon/local-filesystem-links/)
   - Or [GitHub Repository](https://github.com/feinstaub/webextension_local_filesystem_links)
   
-- If not already done when asked, Install `LienExplorerFirefoxnative-app-setup.exe` *(for local file explorer links)*.
+- If not already done when asked during the addon installation, Install `LienExplorerFirefoxnative-app-setup.exe` *(for local file explorer links)*.
 https://github.com/AWolf81/webextension_local_filesystem_links-native-host-binaries/raw/master/win32/native-app-setup.exe
 
 - Go to Extensions settings in the settings page, then Local Filesystem Links, Option
