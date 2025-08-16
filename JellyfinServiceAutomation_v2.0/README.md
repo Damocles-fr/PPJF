@@ -128,5 +128,7 @@ The installer will detect installed browsers automatically.
 - Jellyfin Media Player - Native app, does NOT support external players, browser extensions, or plugins
 
 
+
 GitHub: https://github.com/Damocles-fr/
+
 Jellyfin Service Automation & PotPlayer Integration Guide: https://github.com/Damocles-fr/PPJF
