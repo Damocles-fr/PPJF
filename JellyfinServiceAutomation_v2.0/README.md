@@ -1,6 +1,7 @@
 # Jellyfin Service Automation v2.0
 
 Automates Jellyfin Windows Service lifecycle - One click to start everything, close browser to stop service too.
+Custom scripts - Run additional .bat files at startup (ex : MountNetworkDrives)
 
 ## ⚠️ Requirements
 
@@ -14,18 +15,20 @@ Automates Jellyfin Windows Service lifecycle - One click to start everything, cl
 Service starts/stops automatically with the new shortcut
 
 **TIPS**:
-- **PotPlayer as a player** - Browsers only, with my Scripts and Guide: https://github.com/Damocles-fr/PPJF
+- After a new Jellyfin Server Update, you may need to put back "Jellyfin Server" to "manual" in services.msc (search and run "services" in windows start menu)
 - **Custom scripts** - Run additional .bat files at startup (ex : MountNetworkDrives)
 - **Notifications** - Optional Windows notifications
-- **Browser Benefits**: Web browsers allow you to use extensions for enhanced functionality:
-- Quick searches on YouTube, IMDB, TMDB searches, subtitle downloaders, etc.
-- Subtitle downloaders
-- Clickable link to the local media folder (from the video media information panel) https://github.com/Damocles-fr/PPJF
 - Edit config.ini to change settings path**: `C:\ProgramData\JellyfinServiceAutomation\`
-- Use Firefox/LibreWolf/Waterfox as a decated browser just for jellyfin to install all of the firefox ADD-ONS you wants:
+ - **Custom path** - You can enter any executable path manually (for using Jellyfin MPV Shim or anything else)
+- **Browser Benefits**: Web browsers allow you to use extensions for enhanced functionality:
+- Use Firefox/LibreWolf/Waterfox as a dedicated browser just for jellyfin to install all of the firefox ADD-ONS you wants:
 addons.mozilla.org
+- Quick searches on YouTube, IMDB, TMDB searches, etc. : https://addons.mozilla.org/fr/firefox/ad...on-search/
+- Clickable link to the local media folder (from the video media information panel) https://github.com/Damocles-fr/PPJF
 - Swift Selection Search : https://addons.mozilla.org/fr/firefox/addon/swift-selection-search/
+- Replaces jellyfin ratings with ratings from various sources: https://github.com/Druidblack/jellyfin_ratings
 Select text and one click search selection on IMDB, YouTube, any websites you configure...
+- **PotPlayer as a player** - Browsers only, with my Scripts and Guide: https://github.com/Damocles-fr/PPJF
 
 **Jellyfin Media Player** does NOT support external players (like PotPlayer), browser extensions, or plugins.
 
@@ -37,6 +40,7 @@ Select text and one click search selection on IMDB, YouTube, any websites you co
 3. Select your browser from the list OR choose custom path option
 4. Configure options (notifications, scripts)
 5. Use desktop shortcut
+6. After a new Jellyfin Server Update, you may need to put back "Jellyfin Server" to "manual" in services.msc (search and run "services" in windows start menu)
 
 **Installation path**: `C:\ProgramData\JellyfinServiceAutomation\`
 
@@ -81,14 +85,6 @@ The uninstaller will:
 
 ## ❓ Troubleshooting
 
-**Test Tool**
-Run `Test_JellyfinAutomation.bat` to verify:
-- Jellyfin service status
-- Installation files
-- Configuration
-- Scheduled task
-- Available browsers
-
 **Service won't start or start at session opening**
 - Verify Jellyfin was installed as Windows Service during setup
 - Check `services.msc` for "Jellyfin Server", it needs to be in manual mode
@@ -126,10 +122,10 @@ The installer will detect installed browsers automatically.
 - Opera/Opera GX
 - Zen Browser
 - Arc
-- **Custom path** - You can enter any executable path manually!
+- **Custom path** - You can enter any executable path manually (for using Jellyfin MPV Shim or anything else)
 
 **Different approach:**
 - Jellyfin Media Player - Native app, does NOT support external players, browser extensions, or plugins
 
-GitHub: https://github.com/Damocles-fr/  
-PotPlayer Integration Guide: https://github.com/Damocles-fr/PPJF
+GitHub: https://github.com/Damocles-fr/
+Jellyfin Service Automation & PotPlayer Integration Guide: https://github.com/Damocles-fr/PPJF
