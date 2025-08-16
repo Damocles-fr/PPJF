@@ -13,6 +13,8 @@ This tutorial explains how to set up Jellyfin Server on Windows to:
 ---
 ### -Update- for Optional : Jellyfin Service Automation, Start and stop. Cleaner solution, no console popup window, multi browser auto-install, possibility for custom .bat at launch, notification etc..  :
 - Standalone and/or replace Steps 13. 14. 15. 16. 17. that are for manual installation of an older version of JellyfinServiceAutomation
+- Start and stop the Jellyfin server automatically at launching the interface and closing it.
+- Add **Custom scripts** - Run additional .bat files at startup (ex : MountNetworkDrives, SpinUpDrives)
 - Download and follow the instruction from the Readme in : [WIP.JellyfinServiceAutomation.zip](https://github.com/Damocles-fr/PPJF/releases/tag/v1.0)
 ---
 
