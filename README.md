@@ -76,7 +76,7 @@ https://addons.mozilla.org/fr/firefox/addon/violentmonkey/
 - Optional : If you want Local Files Links in jellyfin media info
 	- Do the same in ViolentMonkey, +, new, delete all the lines, but copy/paste from the file ``` OpenMediaInfoPathScriptmonkey.js ```, save and exit.
 
-### 5. Enable PowerShell Scripts Execution (Windows)
+### 5. Enable PowerShell Scripts Execution to allow potplayer.ps1 (Windows)
 
 - In Windows 11, go to, Settings → Developers → PowerShell → Allow unsigned scripts
 - Or if you can't find it :
