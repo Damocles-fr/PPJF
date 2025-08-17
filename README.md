@@ -6,7 +6,7 @@ This tutorial explains how to set up Jellyfin Server on Windows to:
 
     Optional :  One click link to the corresponding media local folder from the Jellyfin media information panel.
 
-    Optional : Jellyfin Service Automation, Start and stop the Jellyfin server automatically at launching the web interface and closing it. 
+    Optional : Jellyfin Service Automation, Start and stop the Jellyfin server automatically at Jellyfin interface and closing it. 
     
     Bonus : Select text and one click search selection on IMDB, YOUTUBE, or any websites
 
