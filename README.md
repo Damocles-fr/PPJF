@@ -1,8 +1,8 @@
 # PPJF & Jellyfin Service Automation – Setup Guide  ##
 
-This tutorial explains how to set up Jellyfin Server on Windows to:
+This tutorial explains how to:
 
-    Launch medias from the Jellyfin web interface directly in PotPlayer. Steps 1 to 6 required.
+    Launch medias from the Jellyfin web interface directly with PotPlayer. Steps 1 to 6 required.
 
     Optional :  One click link to the corresponding media local folder from the Jellyfin media information panel.
 
