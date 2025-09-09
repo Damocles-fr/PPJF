@@ -61,6 +61,8 @@ $path = $path -replace "\\\\\?\\", "\"  # Remplacer \\?\ par un seul backslash p
 # Normaliser tous les slashes restants en backslashes
 $path = $path -replace "/", "\"
 
+# Your NAS, IF NEEDED, ADD YOUR OWN WORKAROUND BELOW
+
 echo "Chemin normalisé : $path"
 
 # Lancer PotPlayer
