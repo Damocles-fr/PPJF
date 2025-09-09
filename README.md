@@ -101,13 +101,14 @@ https://addons.mozilla.org/fr/firefox/addon/violentmonkey/
 - You can test if it works already.
 
 ### If PotPlayer starts but fail to launch the media : Workaround
+- Your NAS/network drives must be mount with a letter like D:\ E:\... in Windows.
 - Edit "potplayer.ps1" located in ``` C:\ProgramData\PotPlayerJellyfin ```
   	- At the end of the file, just before : ``` echo "Chemin normalisé : $path" ```
   	- Add this line : ``` $path = $path -replace "\\share\\SHAREFOLDER\\", "D:" ```
   	- In this, change ``` "\\share\\SHAREFOLDER\\" ``` with the start of the the wrong path shown if you click on "more info" when Potplayer fail to launch the media from Jellyfin,
   	  It should be the part of the path that appear in "more info" but not in the Windows explorer path of your movies. 
   	- Add double backslash ``` \\ ``` instead of single backslash ``` \ ``` in your own path, they are essential
-  	- Replace "D:" with the drive letter of your NAS or drive in Windows. (Your NAS/network drives must be mount with a letter like D:\ in Windows)
+  	- Replace "D:" with the drive letter of your NAS or drive in Windows.
   	- For exemple ``` $path = $path -replace "\\share\\_MEDIA\\", "D:" ```
 	That works for everything located in my NAS mounted as the D: drive in Windows, so D:\FILMS, D:\SERIES etc.
 	``` "\\share\\\_MEDIA\\" ``` depends of your NAS/drives configuration (see "more info" in Potplayer when it fail to launch the media from Jellyfin to identify your issue)
@@ -267,6 +268,7 @@ Should be fine but if it happens too often, you can add a line or create .bat to
   	  It should be the part of the path that appear in "more info" but not in the Windows explorer path of your movies
   	- Add double backslash ``` \\ ``` instead of single backslash ``` \ ``` in your own path, they are essential
   	- Replace "D:" with the drive letter of your NAS or drive in Windows
+  	- Your NAS/network drives must be mount with a letter like D:\ E:\ ... in Windows.
   	- For exemple ``` $path = $path -replace "\\share\\_MEDIA\\", "D:" ```
 	That works for everything located in my NAS mounted as the D: drive in Windows, so D:\FILMS, D:\SERIES etc.
 	``` "\\share\\\_MEDIA\\" ``` depends of your NAS/drives configuration (see "more info" in Potplayer when it fail to launch the media from Jellyfin to identify your issue)
