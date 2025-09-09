@@ -95,8 +95,8 @@ https://addons.mozilla.org/fr/firefox/addon/violentmonkey/
 
 ### 6. Apply PotPlayer Registry Settings
 
-- Run `PotPlayerMini64.reg` and confirm changes.
-- You may need to re-run PotPlayerMini64.reg after major Potplayer Updates.
+- Run `potplayer.reg` and confirm changes.
+- You may need to re-run `potplayer.reg` after major Potplayer Updates.
 - The next steps are optional, but I recommend checking them out for quality-of-life improvements
 - You can test if it works already.
 
@@ -105,9 +105,9 @@ https://addons.mozilla.org/fr/firefox/addon/violentmonkey/
   	- At the end of the file, just before : ``` echo "Chemin normalisé : $path" ```
   	- Add this line : ``` $path = $path -replace "\\share\\SHAREFOLDER\\", "D:" ```
   	- In this, change ``` "\\share\\SHAREFOLDER\\" ``` with the start of the the wrong path shown if you click on "more info" when Potplayer fail to launch the media from Jellyfin,
-  	  It should be the part of the path that appear in "more info" but not in the Windows explorer path of your movies
+  	  It should be the part of the path that appear in "more info" but not in the Windows explorer path of your movies. 
   	- Add double backslash ``` \\ ``` instead of single backslash ``` \ ``` in your own path, they are essential
-  	- Replace "D:" with the drive letter of your NAS or drive in Windows
+  	- Replace "D:" with the drive letter of your NAS or drive in Windows. (Your NAS/network drives must be mount with a letter like D:\ in Windows)
   	- For exemple ``` $path = $path -replace "\\share\\_MEDIA\\", "D:" ```
 	That works for everything located in my NAS mounted as the D: drive in Windows, so D:\FILMS, D:\SERIES etc.
 	``` "\\share\\\_MEDIA\\" ``` depends of your NAS/drives configuration (see "more info" in Potplayer when it fail to launch the media from Jellyfin to identify your issue)
@@ -251,13 +251,13 @@ You can Add IMDB, Youtube, Wikipedia, Steam, Google Maps, translators, lots of l
 
 ### 19. Optional : Files in C:\ProgramData\PotPlayerJellyfin
 - ``` potplayer.ps1 ``` : Do not delete. Main Script.
-- ``` potplayer.reg ``` : Do not delete. You may need to run it, especially after a Potplayer Update.
+- ``` potplayer.reg ``` : Do not delete. You may need to run it again, especially after a Potplayer Update.
 - ``` OpenWithPotplayerUserscript.js ``` : backup file of the main browser script, it's in ViolentMonkey in your browser
 - ``` OpenMediaInfoPathScriptmonkey.js ``` : backup file, it's in ViolentMonkey in your browser, only needed for local links
 - Jellyfin.bat, Jellyfin, JellyfinUAC, JellyfinUAC.xml : Only needed for the server start and stop and and shortcuts without [WIP.JellyfinServiceAutomation.zip](https://github.com/Damocles-fr/PPJF/releases/tag/v1.0)
 
 ## IMPORTANT ##
-- Sometimes if it stop working, because of idk, **PotPlayer updates** or some specific settings change, just **re-run** `PotPlayerMini64.reg`.
+- Sometimes if it stop working, because of idk, **PotPlayer updates** or some specific settings change, just **re-run** `potplayer.reg` .
 Should be fine but if it happens too often, you can add a line or create .bat to run PotPlayerMini64.reg everytime or at system startup.
 - Workaround for some NAS and network drives :
   Edit "potplayer.ps1" located in ``` "C:\ProgramData\PotPlayerJellyfin" ```
@@ -271,7 +271,7 @@ Should be fine but if it happens too often, you can add a line or create .bat to
 	That works for everything located in my NAS mounted as the D: drive in Windows, so D:\FILMS, D:\SERIES etc.
 	``` "\\share\\\_MEDIA\\" ``` depends of your NAS/drives configuration (see "more info" in Potplayer when it fail to launch the media from Jellyfin to identify your issue)
 - [Start and stop the Jellyfin server] Go to Windows `services.msc` **Jellyfin** **Startup type** **Manual** after each Jellyfin Server updates.
-- Firefox extension ``` Dark Reader ``` breaks Jellyfin in browsers, desactivate it only for jellyfin : Go into Dark Reader settings while you have the Jellyfin page open (firefox menu bar), click to uncheck Jellyfin URL.
+- If you use the Firefox extension ``` Dark Reader ``` , it breaks Jellyfin pictrures loading in browsers, desactivate it only for jellyfin : Go into Dark Reader settings while you have the Jellyfin page open (firefox menu bar), click to uncheck Jellyfin URL.
 
 ## Need Help?
 - Visit: [Jellyfin Forum Thread](https://forum.jellyfin.org/t-guide-jellyfin-with-potplayer) or **DM me** https://forum.jellyfin.org/u-damocles
