@@ -11,7 +11,6 @@ This tutorial explains how to:
     Bonus : Select text and one click search selection on IMDB, YOUTUBE, or any websites
 
 ---
-### -Update- Jellyfin 10.11 : Bouton play "▷" on the movie/episode detail page still works for potplayer, however the Play bouton on posters launch the jellyfin player (OpenWithPotplayerUserscript.js needs some updates)
 ### -Update- for Optional : Jellyfin Service Automation, Start and stop. Cleaner solution, no console popup window, multi browser auto-install, possibility for custom .bat at launch, notification etc..  :
 - Standalone and/or replace Steps 13. 14. 15. 16. 17. that are for manual installation of an older version of JellyfinServiceAutomation
 - Start and stop the Jellyfin server automatically at launching the interface and closing it.
