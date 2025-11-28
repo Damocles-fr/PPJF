@@ -1,3 +1,4 @@
+### -Update- Jellyfin 10.11.** : Potplayer => "▶︎" button on the media page still work, play button on posters not so much
 # PPJF & Jellyfin Service Automation – Setup Guide  ##
 
 This tutorial explains how to:
