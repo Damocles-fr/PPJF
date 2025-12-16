@@ -115,11 +115,7 @@ https://addons.mozilla.org/fr/firefox/addon/violentmonkey/
 	That works for everything located in my NAS mounted as the D: drive in Windows, so D:\FILMS, D:\SERIES etc.
 	``` "\\share\\\_MEDIA\\" ``` depends of your NAS/drives configuration (see "more info" in Potplayer when it fail to launch the media from Jellyfin to identify your issue)
 
-
-
-
-
-
+---
 
 ### 7. Optional : Preserving User login and settings in the browser
 
@@ -266,7 +262,7 @@ You can Add IMDB, Youtube, Wikipedia, Steam, Google Maps, translators, lots of l
 - Jellyfin.bat, Jellyfin, JellyfinUAC, JellyfinUAC.xml : Only needed for the server start and stop and and shortcuts without [WIP.JellyfinServiceAutomation.zip](https://github.com/Damocles-fr/PPJF/releases/tag/v1.0)
 
 
-
+---
 
 ## IMPORTANT ##
 - Sometimes if it stop working, because of idk, **PotPlayer updates** or some specific settings change, just **re-run** `potplayer.reg` .
