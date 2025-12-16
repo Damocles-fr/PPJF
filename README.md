@@ -101,7 +101,7 @@ https://addons.mozilla.org/fr/firefox/addon/violentmonkey/
 - You can test if it works already.
 - Done !
 
-### If PotPlayer starts but fail to launch the media : Workaround
+### Workaround : If PotPlayer starts but fail to launch the media
 - Your NAS/network drives must be mount with a letter like D:\ E:\... in Windows.
 - Edit "potplayer.ps1" located in ``` C:\ProgramData\PotPlayerJellyfin ```
   	- At the end of the file, just before : ``` echo "Chemin normalisé : $path" ```
@@ -113,6 +113,12 @@ https://addons.mozilla.org/fr/firefox/addon/violentmonkey/
   	- For exemple ``` $path = $path -replace "\\share\\_MEDIA\\", "D:" ```
 	That works for everything located in my NAS mounted as the D: drive in Windows, so D:\FILMS, D:\SERIES etc.
 	``` "\\share\\\_MEDIA\\" ``` depends of your NAS/drives configuration (see "more info" in Potplayer when it fail to launch the media from Jellyfin to identify your issue)
+
+
+
+
+
+
 
 ### 7. Optional : Preserving User login and settings in the browser
 
