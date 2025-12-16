@@ -75,7 +75,7 @@ https://addons.mozilla.org/fr/firefox/addon/violentmonkey/
 	Edit the `.js` scripts to replace ``` http://localhost:8096/ ``` with your Jellyfin web URL :
   ```
   javascript
-  // @match        http://192.168.1.24:8096/*
+  // @match        http://192.168.1.10:8096/*
 
   ```
 Don't forget the * at the end.
