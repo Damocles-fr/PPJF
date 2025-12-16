@@ -75,9 +75,10 @@ https://addons.mozilla.org/fr/firefox/addon/violentmonkey/
 	Edit the `.js` scripts to replace ``` http://localhost:8096/ ``` with your Jellyfin web URL :
   ```
   javascript
-  // @match        http://localhost:8096/web/index.html
+  // @match        http://192.168.1.24:8096/*
 
   ```
+Don't forget the * at the end.
 
 - Optional : If you want Local Files Links in jellyfin media info
 	- Do the same in ViolentMonkey, +, new, delete all the lines, but copy/paste from the file ``` OpenMediaInfoPathScriptmonkey.js ```, save and exit.
