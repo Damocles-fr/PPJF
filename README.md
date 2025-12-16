@@ -47,7 +47,7 @@ With the files in it.
 - No need to reinstall if already installed
 - Default path: `C:\Program Files\DAUM\PotPlayer`
 
-### 3. Install LibreWolf or Firefox (a lighter and Privacy optimised Firefox)
+### 3. Install LibreWolf (a lighter and Privacy optimised Firefox) or Firefox
 
 	- Not tested with Chrome – using LibreWolf is recommended and easier for the optionals in this setup.
 	- You can install multiple Firefox/LibreWolf/Nightly/Any fork on the same computer. I strongly recommend to install LibreWolf separately from your main browser.
