@@ -103,7 +103,7 @@ https://addons.mozilla.org/fr/firefox/addon/violentmonkey/
 - Done !
 
 ### Workaround : If PotPlayer starts but fail to launch the media
-- Your NAS/network drives must be mount with a letter like D:\ E:\... in Windows.
+- Your NAS/network drives must be mount with a letter like D:\ E:\ ... in Windows.
 - Edit "potplayer.ps1" located in ``` C:\ProgramData\PotPlayerJellyfin ```
   	- At the end of the file, just before : ``` echo "Chemin normalisé : $path" ```
   	- Add this line : ``` $path = $path -replace "\\share\\SHAREFOLDER\\", "D:" ```
