@@ -1,5 +1,6 @@
-### -Update- Jellyfin 10.11.** : Use the new version PPJF 10.11 (new OpenWithPotplayerUserscript.js)
+### -Update- Jellyfin 10.11.** : New version PPJF 10.11 (new OpenWithPotplayerUserscript.js)
 
+---
 This tutorial explains how to:
 
     Launch medias from the Jellyfin web interface directly with PotPlayer. Steps 1 to 6 required.
@@ -263,6 +264,9 @@ You can Add IMDB, Youtube, Wikipedia, Steam, Google Maps, translators, lots of l
 - ``` OpenWithPotplayerUserscript.js ``` : backup file of the main browser script, it's in ViolentMonkey in your browser
 - ``` OpenMediaInfoPathScriptmonkey.js ``` : backup file, it's in ViolentMonkey in your browser, only needed for local links
 - Jellyfin.bat, Jellyfin, JellyfinUAC, JellyfinUAC.xml : Only needed for the server start and stop and and shortcuts without [WIP.JellyfinServiceAutomation.zip](https://github.com/Damocles-fr/PPJF/releases/tag/v1.0)
+
+
+
 
 ## IMPORTANT ##
 - Sometimes if it stop working, because of idk, **PotPlayer updates** or some specific settings change, just **re-run** `potplayer.reg` .
