@@ -27,7 +27,7 @@ This tutorial explains how to:
 
 ### 0. Download PPJF.zip
 
-Download [PPJF.zip](https://github.com/Damocles-fr/PPJF/releases/tag/v1.0)
+Download [PPJF.zip](https://github.com/Damocles-fr/PPJF/)
 
 ### 1. Place Required Files
 
