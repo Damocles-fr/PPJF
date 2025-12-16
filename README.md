@@ -45,17 +45,17 @@ With the files in it.
 - No need to reinstall if already installed
 - Default path: `C:\Program Files\DAUM\PotPlayer`
 
-### 3. Install LibreWolf (a lighter and Privacy optimised Firefox)
+### 3. Install LibreWolf or Firefox (a lighter and Privacy optimised Firefox)
 
-	- Not tested with Chrome – using LibreWolf is recommended and easier for this setup.
+	- Not tested with Chrome – using LibreWolf is recommended and easier for the optionals in this setup.
 	- You can install multiple Firefox/LibreWolf/Nightly/Any fork on the same computer. I strongly recommend to install LibreWolf separately from your main browser.
 	This way you can launch Jellyfin directly in full-screen mode and/or hide the browser menu bar, as well as enabling separate configurations such as a default zoom of 120%, differents firefox addons for this browser etc...
 	This also allows to use the Optional feature to start Jellyfin server automatically while launching the web interface and to stop jellyfin server after closing the window.
  	"Local Filesystem Links extension" needed for the optional links feature have minors security flaws and display a notification in private mod, I recommend not to use your main browser with it.
-- Install **LibreWolf** (or any fork that supporting **ViolentMonkey/TamperMonkey** extension).
+- Install **LibreWolf** (or any Firefox fork that supporting **ViolentMonkey/TamperMonkey** extension).
 https://librewolf.net/installation/windows/
 - Default path: `C:\Program Files\LibreWolf`
-- if you want to use with your current browser or a different one, don't forget step 10
+- if you want to use the optionals with your current browser or a different one, don't forget step 10
 
 ### 4. Install ViolentMonkey and my scripts
 
