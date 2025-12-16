@@ -152,8 +152,6 @@ https://addons.mozilla.org/en-US/firefox/addon/autofullscreen/
 - Edit `Jellyfin.bat` `OpenMediaInfoPathScriptmonkey.js` & `OpenWithPotplayerUserscript.js`
 - Those files are set to LibreWolf default path and Jellyfin Server default URL :
 ``` http://localhost:8096 ``` and librewolf.exe path ``` C:\Program Files\LibreWolf\librewolf.exe ``` Potplayer path ``` C:\Program Files\DAUM\PotPlayer\PotPlayerMini64.exe ```
-- If you use those settings, default settings, skip to 7.
-- If not, edit the files.
 - In Jellyfin.bat modify it for your **LibreWolf/Firefox path**, **process name** (Firefox.exe or LibreWolf.exe), and **Jellyfin URL**:
   ```
   curl -s http://localhost:8096 > nul
