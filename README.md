@@ -1,3 +1,4 @@
+### PPJF - PotPlayer launcher for Jellyfin
 ### -Update- Jellyfin 10.11.** : New version PPJF 10.11 (new OpenWithPotplayerUserscript.js)
 
 ---
