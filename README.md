@@ -61,9 +61,9 @@ https://librewolf.net/installation/windows/
 
 ### 4. Install ViolentMonkey and my scripts
 
-- In Librewolf, install ViolentMonkey extension
+- In Librewolf or own browser, install ViolentMonkey extension
 https://addons.mozilla.org/fr/firefox/addon/violentmonkey/
-- Librewolf → settings → Extensions → ViolentMonkey → click on the three dot → click option
+- Settings → Extensions → ViolentMonkey → click on the three dot → click option
 - Go to intalled Scripts
 - Click on + , then click new
 - The editor window will open with some default metadata for the script. Delete all the lines of the default code. Don't Close.
