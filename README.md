@@ -260,7 +260,7 @@ You can Add IMDB, Youtube, Wikipedia, Steam, Google Maps, translators, lots of l
 - ``` potplayer.reg ``` : Do not delete. You may need to run it again, especially after a Potplayer Update.
 - ``` OpenWithPotplayerUserscript.js ``` : backup file of the main browser script, it's in ViolentMonkey in your browser
 - ``` OpenMediaInfoPathScriptmonkey.js ``` : backup file, it's in ViolentMonkey in your browser, only needed for local links
-- Jellyfin.bat, Jellyfin, JellyfinUAC, JellyfinUAC.xml : Only needed for the server start and stop and and shortcuts without [WIP.JellyfinServiceAutomation.zip](https://github.com/Damocles-fr/PPJF/releases/tag/v1.0)
+- Jellyfin.bat, Jellyfin, JellyfinUAC, JellyfinUAC.xml : Only needed for the server start and stop and and shortcuts without [WIP.JellyfinServiceAutomation.zip](https://github.com/Damocles-fr/PPJF/releases/tag/10.7)
 
 
 ---
