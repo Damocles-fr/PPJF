@@ -75,7 +75,7 @@ This tutorial explains how to:
 
     Launch medias from the Jellyfin web interface directly with PotPlayer. Steps 1 to 6 required.
 
-    Optional :  One click link to Windows File Explorer for the corresponding media (from the Jellyfin media information panel)
+    Optional :  Clickable link to Windows File Explorer for the corresponding media (from the Jellyfin media information panel)
 
     Optional : Jellyfin Service Automation, Start and stop the Jellyfin server automatically with the Jellyfin interface and closing it. 
     
