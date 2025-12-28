@@ -348,6 +348,7 @@ Should be fine but if it happens too often, you can add a line or create .bat to
   	- For exemple ``` $path = $path -replace "\\share\\_MEDIA\\", "D:" ```
 	That works for everything located in my NAS mounted as the D: drive in Windows, so D:\FILMS, D:\SERIES etc.
 	``` "\\share\\\_MEDIA\\" ``` depends of your NAS/drives configuration (see "more info" in Potplayer when it fail to launch the media from Jellyfin to identify your issue)
+- The .js userscript can be put in Jellyfin JavaScript Injector plugin instead, but every play buttons in Jellyfin Web won't work anywhere else without the .ps1 and Potplayer.
 - [Start and stop the Jellyfin server] Go to Windows `services.msc` **Jellyfin** **Startup type** **Manual** after each Jellyfin Server updates.
 - If you use the Firefox extension ``` Dark Reader ``` , it breaks Jellyfin pictrures loading in browsers, desactivate it only for jellyfin : Go into Dark Reader settings while you have the Jellyfin page open (firefox menu bar), click to uncheck Jellyfin URL.
 
