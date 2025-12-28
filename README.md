@@ -87,7 +87,7 @@ This tutorial explains how to:
 - Start and stop the Jellyfin server automatically at launching the interface and closing it.
 - Add **Custom scripts** - Run additional .bat files at server startup (ex : MountNetworkDrives, SpinUpDrives)
 - Works with Jellyfin Media Player, web browsers (recommended), or you can enter any executable path manually (for using Jellyfin MPV Shim or anything else)
-- Download and follow the instruction from the Readme in : [WIP.JellyfinServiceAutomation.zip](https://github.com/Damocles-fr/PPJF/releases/tag/v1.0)
+- Download and follow the instruction from the Readme in : [WIP.JellyfinServiceAutomation.zip](https://github.com/Damocles-fr/PPJF/releases/tag/10.7)
 ---
 
 # INSTALLATION - PPJF - Jellyfin with PotPlayer ##
