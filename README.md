@@ -6,7 +6,7 @@
 
 > [!NOTE]
 > <details>
-> <summary><strong>Quick install PPJF - PotPlayer launcher for Jellyfin (click to expand)</strong></summary>
+> <summary><strong>(click to expand) Quick install PPJF - PotPlayer launcher for Jellyfin </strong></summary>
 >
 > ## 0) Download
 > - Download **PPJF for Jellyfin 10.7** or the latest for **10.11+**: [PPJF.10.11.zip](https://github.com/Damocles-fr/PPJF/releases/tag/10.11)
