@@ -59,8 +59,8 @@
 > ## Workaround: PotPlayer starts but fails to open the media
 > - Your NAS / network drives / HDD must be mapped to a drive letter in Windows (e.g. `D:\`, `E:\`, etc.)
 > - Edit `potplayer.ps1` located in: `C:\ProgramData\PotPlayerJellyfin\`
->   - Near the end of the file, just before:
->     - `echo "Normalized path: $path"`
+>   - Near the end of the file, just below :
+>     - `# YOUR NAS CONFIG, IF NEEDED, ADD YOUR OWN WORKAROUND JUST BELOW`
 >   - Add this line:
 >     - `$path = $path -replace "\\share\\SHAREFOLDER\\", "D:"`
 >   - Replace `"\\share\\SHAREFOLDER\\"` with the beginning of the *wrong* path shown in PotPlayer “More info” when it fails
@@ -182,7 +182,7 @@ Don't forget the * at the end.
 ### Workaround : If PotPlayer starts but fail to launch the media
 - Your NAS/network drives must be mount with a letter like D:\ E:\ ... in Windows.
 - Edit "potplayer.ps1" located in ``` C:\ProgramData\PotPlayerJellyfin ```
-  	- At the end of the file, just before : ``` echo "Chemin normalisé : $path" ```
+  	- At the end of the file, just below : ``` # YOUR NAS CONFIG, IF NEEDED, ADD YOUR OWN WORKAROUND JUST BELOW ```
   	- Add this line : ``` $path = $path -replace "\\share\\SHAREFOLDER\\", "D:" ```
   	- In this, change ``` "\\share\\SHAREFOLDER\\" ``` with the start of the the wrong path shown if you click on "more info" when Potplayer fail to launch the media from Jellyfin,
   	  It should be the part of the path that appear in "more info" but not in the Windows explorer path of your movies. 
@@ -352,7 +352,7 @@ You can Add IMDB, Youtube, Wikipedia, Steam, Google Maps, translators, lots of l
      ```
 - Workaround for some NAS and network drives :
   Edit "potplayer.ps1" located in ``` "C:\ProgramData\PotPlayerJellyfin" ```
-  	- At the end of the file, just before : ``` echo "Chemin normalisé : $path" ```
+  	- At the end of the file, just below : ``` # YOUR NAS CONFIG, IF NEEDED, ADD YOUR OWN WORKAROUND JUST BELOW ```
   	- Add this line : ``` $path = $path -replace "\\share\\SHAREFOLDER\\", "D:" ```
   	- In this, change ``` "\\share\\SHAREFOLDER\\" ``` with the start of the the wrong path shown if you click on "more info" when Potplayer fail to launch the media from Jellyfin,
   	  It should be the part of the path that appear in "more info" but not in the Windows explorer path of your movies
