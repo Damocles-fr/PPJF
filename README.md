@@ -173,8 +173,11 @@ Don't forget the * at the end.
 - Run `potplayer.reg` and confirm changes.
 - You may need to re-run `potplayer.reg` after major Potplayer Updates.
 - The next steps are optional, but I recommend checking them out for quality-of-life improvements
-- You can test if it works already.
+- You can test if it works already. If not, see Workaround below.
 - Done !
+
+### Optionnal : Hide the Powerscript windows at Potplayer launch
+> - Run the file **Install-PPJF-HiddenProtocol.ps1** (Right click and Run with PowerShell)
 
 ### Workaround : If PotPlayer starts but fail to launch the media
 - Your NAS/network drives must be mount with a letter like D:\ E:\ ... in Windows.
