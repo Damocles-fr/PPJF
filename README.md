@@ -47,9 +47,8 @@
 > ## 5) Apply PotPlayer registry settings
 > - Run `potplayer.reg` and confirm the changes
 > - You may need to re-run `potplayer.reg` after major PotPlayer updates
-> - Check the full README on GitHub for extra quality-of-life improvements
 > - Test it — done (if not, see workaround below)
-> - Many tips for the best jellyfin experience in the full readme
+> - Check the full README on GitHub for extra quality-of-life improvements
 >
 > ## 6) Optionnal : Hide the Powerscript windows at Potplayer launch
 > - `Install-PPJF-HiddenProtocol.ps1` must be in your default PotPlayerJellyfin folder.
