@@ -342,7 +342,7 @@ You can Add IMDB, Youtube, Wikipedia, Steam, Google Maps, translators, lots of l
 
 ---
 
-
+## IMPORTANT
 - Sometimes if it stop working, because of idk, **PotPlayer updates** or some specific settings change, just **re-run** `potplayer.reg` .
 - To uninstall Install-PPJF-HiddenProtocol.ps1 : run in Powershell :
 
