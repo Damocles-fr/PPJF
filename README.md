@@ -51,6 +51,9 @@
 > - Test it — done (if not, see workaround below)
 > - Many tips for the best jellyfin experience in the full readme
 >
+> ## 6) Optionnal : Hide the Powerscript windows at Potplayer launch
+> - Run the file **Install-PPJF-HiddenProtocol.ps1** (Right click and Run with PowerShell)
+>
 > ---
 >
 > ## Workaround: PotPlayer starts but fails to open the media
