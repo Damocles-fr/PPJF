@@ -146,7 +146,6 @@ https://addons.mozilla.org/fr/firefox/addon/violentmonkey/
 - If your Jellyfin Server is not set the default adress ``` http://localhost:8096/ ```
 	Edit the `.js` scripts to replace ``` http://localhost:8096/ ``` with your Jellyfin web URL, for exemple :
   ```
-  javascript
   // @match        http://192.168.1.10:8096/*
 
   ```
