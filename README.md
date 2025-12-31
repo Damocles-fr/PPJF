@@ -278,7 +278,7 @@ If it don't work with your already saved Jellyfin settings, you can reset some s
 ### 13. Configure Jellyfin Service to only Start with the browser and stop at closing it
 
 - For auto-install, cleaner solution, no console popup window, all major browsers support, possibility for custom .bat at launch, notifications :
-  Download and follow the instructions from the Readme in : [WIP.JellyfinServiceAutomation.zip](https://github.com/Damocles-fr/PPJF/releases/tag/10.7) (after each Jellyfin Server updates, go to Windows `services.msc` **Jellyfin** **Startup type** **Manual**)
+  Download and follow the instructions from the Readme in : [WIP.JellyfinServiceAutomation.zip](https://github.com/Damocles-fr/PPJF/releases/tag/10.7) (after each Jellyfin Server updates, go to Windows `services.msc` and set back **Jellyfin** **Startup type** **Manual**)
 - Next Steps 13. 14. 15. 16. 17. are for manual installation of an older version of JellyfinServiceAutomation
 - Search and Open for **Services**. in the windows start menu. Or Press `Win + R`, type `services.msc`, and press `Enter`.
   - Scroll down to find **Jellyfin** in the list.
@@ -364,7 +364,7 @@ You can Add IMDB, Youtube, Wikipedia, Steam, Google Maps, translators, lots of l
 	That works for everything located in my NAS mounted as the D: drive in Windows, so D:\FILMS, D:\SERIES etc.
 	``` "\\share\\\_MEDIA\\" ``` depends of your NAS/drives configuration (see "more info" in Potplayer when it fail to launch the media from Jellyfin to identify your issue)
 - The .js userscript can be put in Jellyfin JavaScript Injector plugin instead, but every play buttons in Jellyfin Web won't work anywhere else without the .ps1 and Potplayer.
-- [Start and stop the Jellyfin server] Go to Windows `services.msc` **Jellyfin** **Startup type** **Manual** after each Jellyfin Server updates.
+- [Start and stop the Jellyfin server] and [WIP.JellyfinServiceAutomation] After each Jellyfin Server updates, go to Windows `services.msc` and set back **Jellyfin** **Startup type** **Manual** 
 - If you use the Firefox extension ``` Dark Reader ``` , it breaks Jellyfin pictrures loading in browsers, desactivate it only for jellyfin : Go into Dark Reader settings while you have the Jellyfin page open (firefox menu bar), click to uncheck Jellyfin URL.
 
 ## Need Help?
