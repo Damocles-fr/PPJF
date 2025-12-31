@@ -344,6 +344,7 @@ You can Add IMDB, Youtube, Wikipedia, Steam, Google Maps, translators, lots of l
 
 ## IMPORTANT
 - Sometimes if it stop working, because of idk, **PotPlayer updates** or some specific settings change, just **re-run** `potplayer.reg` .
+- If Potplayer takes time to launch, it's because your HDD is in standby, the script is waiting for your HDD to respond.
 - To uninstall Install-PPJF-HiddenProtocol.ps1 : run in Powershell :
 
      ```
