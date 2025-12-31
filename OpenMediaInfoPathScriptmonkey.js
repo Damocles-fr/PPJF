@@ -4,7 +4,7 @@
 // @version      1.5
 // @description  Open with Potplayer or subfolder with the Addon Local Filesystem Links by austrALIENsun AWolf
 // @author       Damocles
-// @match        http://localhost:8096/web/index.html
+// @match        http://localhost:8096/*
 // @grant        none
 // ==/UserScript==
 
@@ -56,3 +56,4 @@
     // Assurez-vous qu'il n'y ait pas de récursivité infinie dans le traitement des liens
     document.addEventListener('DOMContentLoaded', processPage, { once: true });
 })();
+
