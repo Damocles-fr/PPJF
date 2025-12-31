@@ -50,7 +50,7 @@
 > - Test it — done (if not, see workaround below)
 > - Check the full README on GitHub for extra quality-of-life improvements
 >
-> ## 6) Optionnal : Hide the Powerscript windows at Potplayer launch
+> ## 6) Optionnal : Hide the Powerscript window at Potplayer launch
 > - `Install-PPJF-HiddenProtocol.ps1` must be in your default PotPlayerJellyfin folder.
 > - It **require VBScript** installed (may not be installed by default on all Windows 11 installation)
 > - Run the file `Install-PPJF-HiddenProtocol.ps1` (Right click and Run with PowerShell)
@@ -177,7 +177,7 @@ Don't forget the * at the end.
 - You can test if it works already. If not, see Workaround below.
 - Done !
 
-### Optionnal : Hide the Powerscript windows at Potplayer launch
+### Optionnal : Hide the Powerscript window at Potplayer launch
 - `Install-PPJF-HiddenProtocol.ps1` must be in your default PotPlayerJellyfin folder.
 - It **require VBScript** installed (may not be installed by default on all Windows 11 installation)
 - Run the file `Install-PPJF-HiddenProtocol.ps1` (Right click and Run with PowerShell)
