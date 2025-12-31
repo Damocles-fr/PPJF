@@ -270,7 +270,7 @@ https://github.com/AWolf81/webextension_local_filesystem_links-native-host-binar
 - Uncheck the first box, check the second if you also want a folder icon next to the folder paths
 - Check "Reveal link (open containing folder)"
 
-### 12. Optional : Next steps are only required if you want the Jellyfin server to be only running when you use it on your PC. Otherwise skip to 17.
+### 12. Optional : Next steps are only required if you want the Jellyfin server on your PC to be only running when you use it. Otherwise skip to 17.
 
 - Install Jellyfin Server as a service
 - Choose **“Install as a Service”** during the installation process
