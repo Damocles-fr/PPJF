@@ -9,7 +9,7 @@
 > <summary><strong>(click to expand) Quick install PPJF - PotPlayer launcher for Jellyfin </strong></summary>
 >
 > ## 0) Download
-> - Download **PPJF for Jellyfin 10.7** or the latest for **10.11+**: [PPJF.10.11.5.zip](https://github.com/Damocles-fr/PPJF/releases/tag/10.11.5)
+> - Download PPJF for Jellyfin 10.7 or the **latest for Jellyfin 10.11.+** : [PPJF.10.11.5.zip](https://github.com/Damocles-fr/PPJF/releases/tag/10.11.5)
 >
 > ## 1) Place required files
 > - Extract and move the `PotPlayerJellyfin` folder to: `C:\ProgramData\`  
@@ -100,7 +100,7 @@ This tutorial explains how to:
 
 ### 0. Download PPJF.zip
 
-Download **PPJF for Jellyfin 10.7** or the latest for **10.11+**: [PPJF.10.11.5.zip](https://github.com/Damocles-fr/PPJF/releases/tag/10.11.5)
+Download PPJF for Jellyfin 10.7 or the **latest for Jellyfin 10.11.+** : [PPJF.10.11.5.zip](https://github.com/Damocles-fr/PPJF/releases/tag/10.11.5)
 
 ### 1. Place Required Files
 
