@@ -179,8 +179,9 @@ Don't forget the * at the end.
 - Done !
 
 ### Optionnal : Hide the Powerscript windows at Potplayer launch
-- Run the file `Install-PPJF-HiddenProtocol.ps1` (Right click and Run with PowerShell)
 - `Install-PPJF-HiddenProtocol.ps1` must be in your default PotPlayerJellyfin folder.
+- It **require VBScript** installed (may not be installed by default on all Windows 11 installation)
+- Run the file `Install-PPJF-HiddenProtocol.ps1` (Right click and Run with PowerShell)
 
 ### Workaround : If PotPlayer starts but fail to launch the media
 - Your NAS/network drives must be mount with a letter like D:\ E:\ ... in Windows.
