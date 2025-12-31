@@ -9,7 +9,7 @@
 > <summary><strong>(click to expand) Quick install PPJF - PotPlayer launcher for Jellyfin </strong></summary>
 >
 > ## 0) Download
-> - Download **PPJF for Jellyfin 10.7** or the latest for **10.11+**: [PPJF.10.11.zip](https://github.com/Damocles-fr/PPJF/releases/tag/10.11)
+> - Download **PPJF for Jellyfin 10.7** or the latest for **10.11+**: [PPJF.10.11.5.zip](https://github.com/Damocles-fr/PPJF/releases/tag/10.11.5)
 >
 > ## 1) Place required files
 > - Extract and move the `PotPlayerJellyfin` folder to: `C:\ProgramData\`  
@@ -329,9 +329,12 @@ With this extension, when you select a text in the browser, like a movie title o
 - Click on it and it automatically go to a new tab and search on the website the selected text
 You can Add IMDB, Youtube, Wikipedia, Steam, Google Maps, translators, lots of legal websites, or you can customize to any website search you want in the extension settings...
 
-### 19. Optional : Files in C:\ProgramData\PotPlayerJellyfin
+---
+
+## Files in C:\ProgramData\PotPlayerJellyfin
 - ``` potplayer.ps1 ``` : Do not delete. Main Script.
 - ``` potplayer.reg ``` : Do not delete. You may need to run it again, especially after a Potplayer Update.
+- ``` Install-PPJF-HiddenProtocol.ps1 ``` : One time run to hide the Powershell window at Potplayer launch.
 - ``` OpenWithPotplayerUserscript.js ``` : backup file of the main browser script, it's in ViolentMonkey in your browser
 - ``` OpenMediaInfoPathScriptmonkey.js ``` : backup file, it's in ViolentMonkey in your browser, only needed for local links
 - Jellyfin.bat, Jellyfin, JellyfinUAC, JellyfinUAC.xml : Only needed for the server start and stop and and shortcuts without [WIP.JellyfinServiceAutomation.zip](https://github.com/Damocles-fr/PPJF/releases/tag/10.7)
@@ -339,9 +342,14 @@ You can Add IMDB, Youtube, Wikipedia, Steam, Google Maps, translators, lots of l
 
 ---
 
-## IMPORTANT ##
+
 - Sometimes if it stop working, because of idk, **PotPlayer updates** or some specific settings change, just **re-run** `potplayer.reg` .
-Should be fine but if it happens too often, you can add a line or create .bat to run PotPlayerMini64.reg everytime or at system startup.
+- To uninstall Install-PPJF-HiddenProtocol.ps1 : run in Powershell :
+
+     ```
+     Remove-Item -Recurse -Force "HKCU:\Software\Classes\potplayer" -ErrorAction SilentlyContinue
+     Remove-Item -Recurse -Force (Join-Path $env:LOCALAPPDATA "PPJF") -ErrorAction SilentlyContinue
+     ```
 - Workaround for some NAS and network drives :
   Edit "potplayer.ps1" located in ``` "C:\ProgramData\PotPlayerJellyfin" ```
   	- At the end of the file, just before : ``` echo "Chemin normalisé : $path" ```
@@ -360,4 +368,4 @@ Should be fine but if it happens too often, you can add a line or create .bat to
 
 ## Need Help?
 - Visit: [Jellyfin Forum Thread](https://forum.jellyfin.org/t-guide-jellyfin-with-potplayer) or **DM me** https://forum.jellyfin.org/u-damocles
-- GitHub https://github.com/Damocles-fr/PPJF/
+- GitHub https://github.com/Damocles-fr/
