@@ -32,7 +32,7 @@
 > - Paste everything into the Violentmonkey editor
 > - Click **Save & Exit** (top right)
 > - If your Jellyfin server is **not** the default address `http://localhost:8096/`, edit the `.js` script and replace it with your Jellyfin Web URL  
->   Example: `http://192.168.1.10:8096/*`  
+>   Example: `// @match        http://localhost:8096/*`  
 >   Don’t forget the `*` at the end
 >
 > ## 4) Enable PowerShell script execution (Windows)
