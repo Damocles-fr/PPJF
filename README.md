@@ -52,7 +52,7 @@
 > - Many tips for the best jellyfin experience in the full readme
 >
 > ## 6) Optionnal : Hide the Powerscript windows at Potplayer launch
-> - Run the file **Install-PPJF-HiddenProtocol.ps1** (Right click and Run with PowerShell)
+> - Run the file `Install-PPJF-HiddenProtocol.ps1` (Right click and Run with PowerShell)
 >
 > ---
 >
@@ -177,7 +177,7 @@ Don't forget the * at the end.
 - Done !
 
 ### Optionnal : Hide the Powerscript windows at Potplayer launch
-> - Run the file **Install-PPJF-HiddenProtocol.ps1** (Right click and Run with PowerShell)
+- Run the file `Install-PPJF-HiddenProtocol.ps1` (Right click and Run with PowerShell)
 
 ### Workaround : If PotPlayer starts but fail to launch the media
 - Your NAS/network drives must be mount with a letter like D:\ E:\ ... in Windows.
