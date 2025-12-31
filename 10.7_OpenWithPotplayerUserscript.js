@@ -3,7 +3,7 @@
 // @version      0.2
 // @description  play video with Potplayer
 // @author       Tccoin Damocles
-// @match        http://localhost:8096/web/index.html
+// @match        http://localhost:8096/*
 // ==/UserScript==
 
 (function() {
