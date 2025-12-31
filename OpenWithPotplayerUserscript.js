@@ -4,7 +4,7 @@
 // @version      10.10.11
 // @description  Intercept Play/Resume clicks and open local media path via potplayer://
 // @author       Damocles-fr
-// @match        http://localhost:8096/web/index.html*
+// @match        http://localhost:8096/web/*
 // @run-at       document-end
 // @grant        none
 // ==/UserScript==
