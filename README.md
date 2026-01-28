@@ -372,5 +372,6 @@ You can Add IMDB, Youtube, Wikipedia, Steam, Google Maps, translators, lots of l
 - If you use the Firefox extension ``` Dark Reader ``` , it breaks Jellyfin pictures loading in browsers, desactivate it only for jellyfin : Go into Dark Reader settings while you have the Jellyfin page open (firefox menu bar), click to uncheck Jellyfin URL.
 
 ## Need Help?
+- Don't hesitate to open an [issue](https://github.com/Damocles-fr/PPJF/issues)
 - Visit: [Jellyfin Forum Thread](https://forum.jellyfin.org/t-guide-jellyfin-with-potplayer) or **DM me** https://forum.jellyfin.org/u-damocles
 - GitHub https://github.com/Damocles-fr/
