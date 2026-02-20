@@ -69,7 +69,7 @@
 >     - `$path = $path -replace "\\share\\MEDIA\\", "D:"`
 >   - The `\\share\\MEDIA\\` part depends on your NAS setup (use PotPlayer “More info” to identify what needs replacing)
 >   - If you have other drives, do the same for them by adding lines below.
->   - No need to do it for every library folder, just once for each different drive.
+>   - No need to do add lines for every library folder, just one line for each different drive should be enough.
 >
 > </details>
 
@@ -195,7 +195,7 @@ Don't forget the * at the end.
 	That works for everything located in my NAS mounted as the D: drive in Windows, so D:\FILMS, D:\SERIES etc.
 	``` "\\share\\\MEDIA\\" ``` depends of your NAS/drives configuration (see "more info" in Potplayer when it fail to launch the media from Jellyfin to identify your issue)
   	- If you have other drives, do the same for them by adding lines below.
-  	- No need to do it for every library folder, just once for each different drive.
+  	- No need to do add lines for every library folder, just one line for each different drive should be enough.
 
 ---
 
@@ -369,7 +369,7 @@ You can Add IMDB, Youtube, Wikipedia, Steam, Google Maps, translators, lots of l
 	That works for everything located in my NAS mounted as the D: drive in Windows, so D:\FILMS, D:\SERIES etc.
 	``` "\\share\\\MEDIA\\" ``` depends of your NAS/drives configuration (see "more info" in Potplayer when it fail to launch the media from Jellyfin to identify your issue)
   	- If you have other drives, do the same for them by adding lines below.
-  	- No need to do it for every library folder, just once for each different drive.
+  	- No need to do add lines for every library folder, just one line for each different drive should be enough.
 - The .js userscript can be put in Jellyfin JavaScript Injector plugin instead, but every play buttons in Jellyfin Web won't work anywhere else without the .ps1 and Potplayer.
 - [Start and stop the Jellyfin server] or [WIP.JellyfinServiceAutomation] : After each Jellyfin Server updates, go to Windows `services.msc` and set back **Jellyfin** **Startup type** to **Manual** 
 - If you use the Firefox extension ``` Dark Reader ``` , it breaks Jellyfin pictures loading in browsers, desactivate it only for jellyfin : Go into Dark Reader settings while you have the Jellyfin page open (firefox menu bar), click to uncheck Jellyfin URL.
