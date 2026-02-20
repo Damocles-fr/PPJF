@@ -67,7 +67,7 @@
 >   - Replace `"D:"` with your mapped drive letter
 >   - Example (works for everything on my NAS mapped as `D:`):
 >     - `$path = $path -replace "\\share\\MEDIA\\", "D:"`
->   - The `\\share\\_MEDIA\\` part depends on your NAS setup (use PotPlayer “More info” to identify what needs replacing)
+>   - The `\\share\\MEDIA\\` part depends on your NAS setup (use PotPlayer “More info” to identify what needs replacing)
 >   - If you have other drives, do the same for them by adding lines below.
 >
 > </details>
@@ -190,9 +190,9 @@ Don't forget the * at the end.
   	  It should be the part of the path that appear in "more info" but not in the Windows explorer path of your movies. 
   	- Add double backslash ``` \\ ``` instead of single backslash ``` \ ``` in your own path, they are essential
   	- Replace "D:" with the drive letter of your NAS or drive in Windows.
-  	- For exemple ``` $path = $path -replace "\\share\\_MEDIA\\", "D:" ```
+  	- For exemple ``` $path = $path -replace "\\share\\MEDIA\\", "D:" ```
 	That works for everything located in my NAS mounted as the D: drive in Windows, so D:\FILMS, D:\SERIES etc.
-	``` "\\share\\\_MEDIA\\" ``` depends of your NAS/drives configuration (see "more info" in Potplayer when it fail to launch the media from Jellyfin to identify your issue)
+	``` "\\share\\\MEDIA\\" ``` depends of your NAS/drives configuration (see "more info" in Potplayer when it fail to launch the media from Jellyfin to identify your issue)
   	- If you have other drives, do the same for them by adding lines below.
 
 ---
@@ -363,9 +363,9 @@ You can Add IMDB, Youtube, Wikipedia, Steam, Google Maps, translators, lots of l
   	- Add double backslash ``` \\ ``` instead of single backslash ``` \ ``` in your own path, they are essential
   	- Replace "D:" with the drive letter of your NAS or drive in Windows
   	- Your NAS/network drives must be mount with a letter like D:\ E:\ ... in Windows.
-  	- For exemple ``` $path = $path -replace "\\share\\_MEDIA\\", "D:" ```
+  	- For exemple ``` $path = $path -replace "\\share\\MEDIA\\", "D:" ```
 	That works for everything located in my NAS mounted as the D: drive in Windows, so D:\FILMS, D:\SERIES etc.
-	``` "\\share\\\_MEDIA\\" ``` depends of your NAS/drives configuration (see "more info" in Potplayer when it fail to launch the media from Jellyfin to identify your issue)
+	``` "\\share\\\MEDIA\\" ``` depends of your NAS/drives configuration (see "more info" in Potplayer when it fail to launch the media from Jellyfin to identify your issue)
   	- If you have other drives, do the same for them by adding lines below.
 - The .js userscript can be put in Jellyfin JavaScript Injector plugin instead, but every play buttons in Jellyfin Web won't work anywhere else without the .ps1 and Potplayer.
 - [Start and stop the Jellyfin server] or [WIP.JellyfinServiceAutomation] : After each Jellyfin Server updates, go to Windows `services.msc` and set back **Jellyfin** **Startup type** to **Manual** 
