@@ -75,7 +75,7 @@
 
 ---
 
-# FULL INSTALLATION GUIDE AND TIPS ##
+# Full installation guide and tips ##
 
 This tutorial explains how to:
 
