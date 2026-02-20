@@ -1,6 +1,4 @@
 ### PPJF - PotPlayer launcher for Jellyfin
-### -Update- PPJF 10.11 Compatible with Jellyfin 10.11.+
-- Update OpenWithPotplayerUserscript.js
 
 ---
 
@@ -95,7 +93,7 @@ This tutorial explains how to:
 - Download and follow the instruction from the Readme in : [WIP.JellyfinServiceAutomation.zip](https://github.com/Damocles-fr/PPJF/releases/tag/10.7)
 ---
 
-# INSTALLATION - PPJF - Jellyfin with PotPlayer ##
+# FULL INSTALLATION AND TIPS - PPJF - Jellyfin with PotPlayer ##
 ## Installation Steps
 
 - Steps 1 to 6 are required.
