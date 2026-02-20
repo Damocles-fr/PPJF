@@ -66,7 +66,7 @@
 >   - Use double backslashes `\\` (single `\` won't work)
 >   - Replace `"D:"` with your mapped drive letter
 >   - Example (works for everything on my NAS mapped as `D:`):
->     - `$path = $path -replace "\\share\\_MEDIA\\", "D:"`
+>     - `$path = $path -replace "\\share\\MEDIA\\", "D:"`
 >   - The `\\share\\_MEDIA\\` part depends on your NAS setup (use PotPlayer “More info” to identify what needs replacing)
 >   - If you have other drives, do the same for them by adding lines below.
 >
