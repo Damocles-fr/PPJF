@@ -63,7 +63,7 @@
 >   - Add this line:
 >     - `$path = $path -replace "\\share\\SHAREFOLDER\\", "D:"`
 >   - Replace `"\\share\\SHAREFOLDER\\"` with the beginning of the *wrong* path shown in PotPlayer “More info” when it fails
->   - Use double backslashes `\\` (single `\` will not work)
+>   - Use double backslashes `\\` (single `\` won't work)
 >   - Replace `"D:"` with your mapped drive letter
 >   - Example (works for everything on my NAS mapped as `D:`):
 >     - `$path = $path -replace "\\share\\_MEDIA\\", "D:"`
