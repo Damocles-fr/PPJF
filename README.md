@@ -33,7 +33,7 @@
 >   Example: `// @match        http://192.168.1.10:8096/*`  
 >   Don’t forget the `*` at the end
 >
->  Note : The .js userscript can be put in Jellyfin JavaScript Injector plugin instead, but every play buttons in Jellyfin Web won't work anywhere else without the .ps1 and Potplayer.
+>  **Note** : The .js userscript can be put in Jellyfin JavaScript Injector plugin instead, but every play buttons in Jellyfin Web won't work anywhere else without PPJF.
 >  
 > ## 4) Enable PowerShell script execution (Windows)
 > - In Windows 11: Settings → System → For developers → PowerShell → allow local PowerShell scripts / unsigned scripts (wording may vary)
@@ -154,7 +154,7 @@ https://addons.mozilla.org/fr/firefox/addon/violentmonkey/
   ```
 Don't forget the * at the end.
 
- Note : The .js userscript can be put in Jellyfin JavaScript Injector plugin instead, but every play buttons in Jellyfin Web won't work anywhere else without the .ps1 and Potplayer.
+ **Note** : The .js userscript can be put in Jellyfin JavaScript Injector plugin instead, but every play buttons in Jellyfin Web won't work anywhere else without PPJF.
 
 - Optional : If you want Local Files Links in jellyfin media info
 	- Do the same in ViolentMonkey, +, new, delete all the lines, but copy/paste from the file ``` OpenMediaInfoPathScriptmonkey.js ```, save and exit.
