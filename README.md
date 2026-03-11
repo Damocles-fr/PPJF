@@ -105,7 +105,7 @@ This tutorial explains how to:
 
 ### 0. Download PPJF.zip
 
-Download PPJF for Jellyfin 10.7 or the **latest for Jellyfin 10.11.+** : [PPJF.10.11.5.zip](https://github.com/Damocles-fr/PPJF/releases/tag/10.11.6)
+Download PPJF for Jellyfin 10.7 or the **latest for Jellyfin 10.11.+** : [PPJF.10.11.6.zip](https://github.com/Damocles-fr/PPJF/releases/tag/10.11.6)
 
 ### 1. Place Required Files
 
