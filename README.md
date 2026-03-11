@@ -381,5 +381,5 @@ You can Add IMDB, Youtube, Wikipedia, Steam, Google Maps, translators, lots of l
 
 ## Need Help?
 - Don't hesitate to open an [issue](https://github.com/Damocles-fr/PPJF/issues)
-- Visit: [Jellyfin Forum Thread](https://forum.jellyfin.org/t-guide-jellyfin-with-potplayer) or **DM me** https://forum.jellyfin.org/u-damocles
+- **DM me** https://forum.jellyfin.org/u-damocles
 - GitHub https://github.com/Damocles-fr/
