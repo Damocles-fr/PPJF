@@ -1,7 +1,7 @@
 ### PPJF - PotPlayer launcher for Jellyfin
 
 ---
-### => After a new PotPlayer updates, just re-run `potplayer.reg`
+### => After a new PotPlayer update, just re-run `potplayer.reg`
 
 
 > [!NOTE]
