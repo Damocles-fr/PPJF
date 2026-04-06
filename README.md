@@ -1,8 +1,6 @@
 ### PPJF - PotPlayer launcher for Jellyfin
-
+#### => For MPC and other players see : [MPC-JF](https://github.com/Damocles-fr/MPC-JF)
 ---
-### => After a new PotPlayer update, just re-run `potplayer.reg`
-
 
 > [!NOTE]
 > <details>
@@ -79,6 +77,7 @@
 
 
 ---
+### => After a new PotPlayer update, just re-run `potplayer.reg`
 
 # Full installation guide and tips ##
 
