@@ -87,6 +87,8 @@ This tutorial explains how to:
     Optional :  Clickable link to Windows File Explorer for the corresponding media (from the Jellyfin media information panel)
 
     Optional : Jellyfin Service Automation, Start and stop the Jellyfin server automatically with the Jellyfin interface and closing it. 
+
+	Optional : Launch Jellyfin Web in fullscreen
     
     Bonus : Select text and one click search selection on IMDB, YOUTUBE, or any websites
 
