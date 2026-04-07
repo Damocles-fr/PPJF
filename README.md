@@ -77,7 +77,6 @@
 
 
 ---
-### => After a new PotPlayer update, just re-run `potplayer.reg`
 
 # Full guide and tips ##
 
