@@ -1,5 +1,5 @@
-### Guide and tips for Jellyfin launcher & external player on Windows
-#### => New PPFJ version also compatible with Jellyfin Media Player, Potplayer or MPC : [MPC-JF](https://github.com/Damocles-fr/MPC-JF)
+## Guide and tips for Jellyfin launcher & external player on Windows
+### => New PPFJ version also compatible with Jellyfin Media Player, Potplayer or MPC : [MPC-JF](https://github.com/Damocles-fr/MPC-JF)
 ---
 
 > [!NOTE]
