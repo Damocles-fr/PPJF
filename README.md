@@ -4,7 +4,7 @@
 
 > [!NOTE]
 > <details>
-> <summary><strong>(CLICK TO EXPAND) QUICK INSTALLATION - PPJF - PotPlayer launcher for Jellyfin </strong></summary>
+> <summary><strong>(CLICK TO EXPAND) QUICK INSTALLATION - PPJF - PotPlayer launcher for Jellyfin Web </strong></summary>
 >
 > ## 0) Download
 > - Download PPJF for Jellyfin 10.7 or the **latest for Jellyfin 10.11.+** : [PPJF.10.11.6.zip](https://github.com/Damocles-fr/PPJF/releases/tag/10.11.6)
@@ -79,7 +79,7 @@
 ---
 ### => After a new PotPlayer update, just re-run `potplayer.reg`
 
-# Full installation guide and tips ##
+# Full guide and tips ##
 
 This tutorial explains how to:
 
