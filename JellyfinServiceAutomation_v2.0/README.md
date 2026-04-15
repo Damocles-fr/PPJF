@@ -8,7 +8,7 @@ Custom scripts - Run additional .bat files at startup (ex : MountNetworkDrives)
 - **Jellyfin Server installed as Windows Service** (select this option during Jellyfin Server installation)
 - **A web browser** (recommended) or Jellyfin Media Player
 
-## ⚡ Quick Start INSTALLATION, but please read in full
+## Quick Start INSTALLATION, but please read in full
 
 1. **Install**: Right-click `JellyfinServiceAutomation_v2.bat` → Run as administrator
 2. **Done!**: Desktop → shortcut "Jellyfin Service" (no UAC!)
@@ -33,7 +33,7 @@ Select text and one click search selection on IMDB, YouTube, any websites you co
 **Jellyfin Media Player** does NOT support external players (like PotPlayer), browser extensions, or plugins.
 
 
-## 📦 Installation
+## Installation
 
 1. Ensure Jellyfin is installed as Windows Service
 2. Run installer as administrator
@@ -46,12 +46,12 @@ Select text and one click search selection on IMDB, YouTube, any websites you co
 
 The installer automatically creates a Windows scheduled task to bypass UAC prompts.
 
-## 🎮 Daily Usage
+## Daily Usage
 
 **Start**: Double-click "Jellyfin Service" on desktop  
 **Stop**: Close your browser - service stops automatically
 
-## ⚙️ Configuration
+## Configuration
 
 Edit `C:\ProgramData\JellyfinServiceAutomation\config.ini`:
 
@@ -64,7 +64,7 @@ SHOW_NOTIFICATIONS=1
 NOTIFICATION_SOUND=0
 ```
 
-## 🔧 Custom Scripts
+## Custom Scripts
 
 Add up to 5 .bat scripts to run at startup:
 1. Place scripts in installation folder
@@ -106,11 +106,11 @@ The uninstaller will:
    - In the new windows, click Users or groups, then find your UserName, you can type your Windows Username in the box then click Verify, then OK
 	Save & exit
 
-## 📊 Supported Browsers
+## Supported Browsers
 
-The installer will detect installed browsers automatically.
+The installer will detect an installed browsers automatically or select :
 
-**Best for PotPlayer:**
+**Best ⭐:**
 - **LibreWolf** ⭐ (Recommended)
 - **Firefox** ⭐ (All editions)
 - **Waterfox** ⭐ (All editions)
@@ -126,8 +126,6 @@ The installer will detect installed browsers automatically.
 
 **Different approach:**
 - Jellyfin Media Player - Native app, does NOT support external players, browser extensions, or plugins
-  
-
 
 GitHub: https://github.com/Damocles-fr/
 
