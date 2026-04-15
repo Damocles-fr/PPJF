@@ -32,7 +32,7 @@ This tutorial explain :
 * Also, update the library display order for each user (it's not always the same as the admin, ty for the tips CordedMink2).
 * **Avoid useless video transcodes for users that don't need it** : in the user’s settings, disable “Allow video playback that requires transcoding."
 * **Login background** : I find this login background awesome : [background jpg](https://static.videezy.com/system/resources/thumbnails/000/055/009/original/old_tv_glitches_and_static_noise_2838.jpg) .
-* **Poster glitch / Dark Reader slowdown** : if you use Dark Reader (or similar), disable it for your Jellyfin server URL. It can heavily slow down Jellyfin Web page and even glitch posters loads.
+* **Poster glitch / Dark Reader slowdown** : if you use Dark Reader (or similar), it heavily slow down Jellyfin Web page and even glitch posters loads. Desactivate it only for jellyfin : Go into Dark Reader settings while you have the Jellyfin page open (firefox menu bar), click to uncheck Jellyfin URL.
 * **Web browser extension to swiftly access your search engines in a popup panel.** Context menu also included! You can customize it to add any of your favorite websites like Letterboxd, Wikipedia, Youtube, google etc : [Swift Selection Search](https://addons.mozilla.org/en-US/firefox/addon/swift-selection-search/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
 * **TV series year display** : the thumb view does not show airing years, but Thumb with Card does show it.
 * **Display a colored card box with custom text** on the home : the JavaScript Injector plugin can be use for that too ( [CSS card box example for JF 10.7](https://pastebin.com/5h4XwSuf) ).
@@ -137,7 +137,6 @@ You can Add IMDB, Youtube, Wikipedia, Steam, Google Maps, translators, lots of *
 
 ## IMPORTANT
 - [WIP.JellyfinServiceAutomation] : After each Jellyfin Server updates, go to Windows `services.msc` and set back **Jellyfin** **Startup type** to **Manual** 
-- If you use the Firefox extension ``` Dark Reader ``` , it breaks Jellyfin pictures loading in browsers, desactivate it only for jellyfin : Go into Dark Reader settings while you have the Jellyfin page open (firefox menu bar), click to uncheck Jellyfin URL.
 
 ### Need Help?
 - Don't hesitate to open an [issue](https://github.com/Damocles-fr/PPJF/issues)
