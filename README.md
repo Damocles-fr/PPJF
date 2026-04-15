@@ -53,7 +53,7 @@ This tutorial explain :
 ## Jellyfin NAS HDD Spin‑Up at Homepage
 - QNAP NAS & SSH : Spin up your NAS hard drives automatically right after a remote client reaches Jellyfin’s home screen so the first Play is fast : [Jellyfin NAS HDD Spin‑Up](https://github.com/Damocles-fr/jellyfin-nas-hdd-spinup)
 
-## Recommended : Install LibreWolf (a lighter and Privacy optimised Firefox) or Firefox, for using the next tips and scripts.
+## Recommended for using the next tips and scripts : Install LibreWolf (a lighter and Privacy optimised Firefox), or Firefox,.
 
 	- Not tested with Chrome – using LibreWolf is recommended and easier for the next tips and scripts
 	- You can install multiple Firefox/LibreWolf/Nightly/Any fork on the same computer. I strongly recommend to install LibreWolf separately from your main browser.
