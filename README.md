@@ -2,9 +2,11 @@
 ### => New external player launcher version also compatible with Jellyfin Media Player desktop App, Potplayer or MPC : [MPC-JF](https://github.com/Damocles-fr/MPC-JF)
 ---
 
-This tutorial explains how to:
+This tutorial explain :
 
-    Launch medias from the Jellyfin web interface directly with PotPlayer, MPC... : https://github.com/Damocles-fr/MPC-JF
+    Tips and tricks for Jellyfin
+	
+	Launch medias from the Jellyfin web interface directly with PotPlayer, MPC... : https://github.com/Damocles-fr/MPC-JF
 
     Clickable link to Windows File Explorer for the corresponding media (from the Jellyfin media information panel)
 
@@ -18,7 +20,27 @@ This tutorial explains how to:
 
 # GUIDE
 
-## Install LibreWolf (a lighter and Privacy optimised Firefox) or Firefox
+## Small tips and tricks
+
+* **Analyse library takes too long (JF 10.11) :** All seasons of a TV show must be stored together in the single folder that corresponds to that same show. Previously, I had seasons scattered across multiple folders, after moving them all into the correct show folder, the library scan time dropped from four hours to a few minutes.
+* **Pin some Collections to the top** : Rename the Collection "sorting title" field so it sorts first alphabetically, handy to separate theme/studio Collections from a long list of sagas and keep them at the top. And/or use "• " in the "title" field to also visually separate them from the rest.
+* **Use the generated splashscreen for nice Library/Collection card covers** : Jellyfin generates a splash screen image from your media (path : jellyfin/database/data/splashscreen.png). Feed it into Jellyfin Cover Maker ( [JF Cover Maker](https://jfcovers.jan.run/) ) to create great-looking Library tiles. After each library scan, the splashscreen.png change, so you can grab different variants for different Libraries.
+* **Remove items from Home → Continue Watching** **/ Next Up** : you can do it with KefinTweaks plugin (adds a remove button), but you can also do it manually by quickly toggling the watched status : click the checkmark to mark played then immediately mark unplayed. After refreshing the Home screen, the item disappears and isn't consider as watched. For Next Up, maybe it needs to be done to the whole TV show checkmark.
+* **Make subtitles less dazzling/distracting** : set the subtitle font color to a light gray instead of pure white. Essential for dark scenes, especially in HDR.
+* **English posters, local-language overview** : set the Library’s metadata language to English, run Refresh metadata with Replace all metadata and Replace existing images checked. Then switch the Library metadata language back to your language and run Refresh metadata again with Replace all metadata enabled but without checking replacing images.
+* **Edit a user’s preferences without logging in as them** : Dashboard → Users → open a user → click “Edit this user’s profile, image and personal preferences.”
+* Also, update the library display order for each user (it's not always the same as the admin, ty for the tips CordedMink2).
+* **Avoid useless video transcodes for users that don't need it** : in the user’s settings, disable “Allow video playback that requires transcoding."
+* **Login background** : I find this login background awesome : [background jpg](https://static.videezy.com/system/resources/thumbnails/000/055/009/original/old_tv_glitches_and_static_noise_2838.jpg) .
+* **Poster glitch / Dark Reader slowdown** : if you use Dark Reader (or similar), disable it for your Jellyfin server URL. It can heavily slow down Jellyfin Web page and even glitch posters loads.
+* **Web browser extension to swiftly access your search engines in a popup panel.** Context menu also included! You can customize it to add any of your favorite websites like Letterboxd, Wikipedia, Youtube, google etc : [Swift Selection Search](https://addons.mozilla.org/en-US/firefox/addon/swift-selection-search/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
+* **TV series year display** : the thumb view does not show airing years, but Thumb with Card does show it.
+* **Display a colored card box with custom text** on the home : the JavaScript Injector plugin can be use for that too ( [CSS card box example for JF 10.7](https://pastebin.com/5h4XwSuf) ).
+* **Metadata isn’t being updated when refreshing**, double-check that the metadata isn’t locked. Also, when locking metadata on a collection, it seems to lock metadata on all items in the collection. (ty for the tips glandix)
+* [Jellyfin FAQ](https://jellyfin.org/docs/general/server/media/movies) is great, here the naming rules, you don't need to strictly follow those rules, but the more you do, the faster the library scan will be, and the less you will have to manually click Identify media.
+* **Auto detection not working to import new media on linux** : [ty for the tips Jandalslap-\_-](https://www.reddit.com/r/JellyfinCommunity/comments/1r9voiu/comment/o6ifpnc/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+
+## Install LibreWolf (a lighter and Privacy optimised Firefox) or Firefox, for using the next tips and scripts.
 
 	- Not tested with Chrome – using LibreWolf is recommended and easier for the optionals in this setup.
 	- You can install multiple Firefox/LibreWolf/Nightly/Any fork on the same computer. I strongly recommend to install LibreWolf separately from your main browser.
