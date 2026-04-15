@@ -42,9 +42,6 @@ This tutorial explain :
 
 ## Mods & Plugins & Skins
 - [A Collection of Awesome Jellyfin Plugins](https://github.com/awesome-jellyfin/awesome-jellyfin)
-- [Jellyfin Episodes Ratings Grid](https://github.com/Damocles-fr/jellyfin-imdb-episodes-heatmap-ratings-grid)
-- [JellyFrame](https://github.com/Jellyfin-PG/JellyFrame) by [grimmdev](https://github.com/grimmdev)
-- [KefinTweaks](https://github.com/ranaldsgift/KefinTweaks) by [ranaldsgift](https://github.com/ranaldsgift)
 
 ## AVR volume control with media volume keys, even when bit-streaming on Windows 11 (Denon, Marantz, StormAudio)
 - This is a simple program that captures your PC's volume control buttons and instead sends the commands directly to your home theater AVR. The main benefit of this is that most people when watching video on their HTPC use audio bit-streaming for things like Dolby Digital and DTS audio formats. When you are bit-streaming, the volume control on your HTPC does not work for the bit-streamed audio. This means you can't use the convienent volume control buttons on your wireless keyboard or handheld remote control to control your playback volume. So I use this :
