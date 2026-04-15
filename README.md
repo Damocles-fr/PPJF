@@ -2,8 +2,6 @@
 ### => New external player launcher version also compatible with Jellyfin Media Player desktop App, Potplayer or MPC : [MPC-JF](https://github.com/Damocles-fr/MPC-JF)
 ---
 
-# Full guide and tips ##
-
 This tutorial explains how to:
 
     Launch medias from the Jellyfin web interface directly with PotPlayer, MPC... : https://github.com/Damocles-fr/MPC-JF
@@ -18,9 +16,9 @@ This tutorial explains how to:
 
 ---
 
-## GUIDE
+# GUIDE
 
-### Install LibreWolf (a lighter and Privacy optimised Firefox) or Firefox
+## Install LibreWolf (a lighter and Privacy optimised Firefox) or Firefox
 
 	- Not tested with Chrome – using LibreWolf is recommended and easier for the optionals in this setup.
 	- You can install multiple Firefox/LibreWolf/Nightly/Any fork on the same computer. I strongly recommend to install LibreWolf separately from your main browser.
@@ -31,7 +29,7 @@ This tutorial explains how to:
 - https://librewolf.net/installation/windows/
 - Default path: `C:\Program Files\LibreWolf`
 
-### If you want Local Files Links in jellyfin media info
+## If you want Local Files Links in jellyfin media info
 
 	--- Security Notice ---
 	- For the Optional local folder link, you need to install "native-app-setup.exe" and the firefox extension "Local Filesystem Links" by austrALIENsun, AWolf
@@ -64,7 +62,7 @@ https://github.com/AWolf81/webextension_local_filesystem_links-native-host-binar
 - Uncheck the first box, check the second if you also want a folder icon next to the folder paths
 - Check "Reveal link (open containing folder)"
 
-### For preserving Jellyfin user login and settings in Librewolf
+## For preserving Jellyfin user login and settings in Librewolf
 
 - For the browser to remember your session settings and passwords.
 - In Librewolf, go to settings, then Privacy & Security on the left side panel
@@ -74,7 +72,7 @@ https://github.com/AWolf81/webextension_local_filesystem_links-native-host-binar
 - Also, on the left side panel
 - Uncheck ``` ResistFingerprinting ```
 
-### Adjust LibreWolf Full-Screen Settings (with visible Windows Task bar)
+## Adjust LibreWolf Full-Screen Settings (with visible Windows Task bar)
 
 - Only if you want to use Jellyfin in Full-screen mod and still be able to see the Windows Task bar
 - In LibreWolf
@@ -86,12 +84,12 @@ https://github.com/AWolf81/webextension_local_filesystem_links-native-host-binar
   full-screen-api.ignore-widgets true
   ```
 
-### Alternative : Auto enable Full-Screen at launch (hide the Windows Task bar)
+## Alternative : Auto enable Full-Screen at launch (hide the Windows Task bar)
 
 - Install **Auto Fullscreen** extension by *tazeat*.
 https://addons.mozilla.org/en-US/firefox/addon/autofullscreen/
 
-### If you want the Jellyfin server on your PC to be only running when you use it.
+## If you want the Jellyfin server on your PC to be only running when you use it.
 
 #### -Update- : Jellyfin Service Automation, Start and stop. Cleaner solution, no console popup window, multi browser auto-install, possibility for custom .bat at launch, notification etc..  :
 	- Start and stop the Jellyfin server automatically at launching the interface and closing it.
@@ -99,7 +97,7 @@ https://addons.mozilla.org/en-US/firefox/addon/autofullscreen/
 	- Works with Jellyfin Media Player, web browsers (recommended), or you can enter any executable path manually (for using Jellyfin MPV Shim or anything else)
 - Download and follow the instruction from the Readme in : [WIP.JellyfinServiceAutomation.zip](https://github.com/Damocles-fr/PPJF/releases/tag/10.7)
 
-### Customize a shorcut (without Jellyfin Service Automation)
+## Customize a shorcut (without Jellyfin Service Automation)
 - On your desktop, right click, new shortcut, enter : ``` "C:\Program Files\LibreWolf\librewolf.exe" http://localhost:8096/web/index.html#/home.html ```
 - Or if you want to make it looks like an app, without any tabs and firefox bars, add -kiosk : ``` "C:\Program Files\LibreWolf\librewolf.exe" -kiosk http://localhost:8096/web/index.html#/home.html ```
   	- -kiosk don't work with local file links and prevent from using new tabs.
@@ -107,7 +105,7 @@ https://addons.mozilla.org/en-US/firefox/addon/autofullscreen/
 - For having jellyfin icon instead of LibreWolf in the Windows taskbar, go C:\Program Files\LibreWolf and do the same with LibreWolf.exe
 - Or you can just Bookmark Jellyfin or make it the start page of Librewolf
 
-### Swift Selection Search by Daniel Lobo
+## Swift Selection Search by Daniel Lobo
 https://addons.mozilla.org/fr/firefox/addon/swift-selection-search/
 With this extension, when you select a text in the browser, like a movie title or the name of an actor, a box appear with the logo of websites.
 - Click on it and it automatically go to a new tab and search on the website the selected text
@@ -119,7 +117,7 @@ You can Add IMDB, Youtube, Wikipedia, Steam, Google Maps, translators, lots of *
 - [WIP.JellyfinServiceAutomation] : After each Jellyfin Server updates, go to Windows `services.msc` and set back **Jellyfin** **Startup type** to **Manual** 
 - If you use the Firefox extension ``` Dark Reader ``` , it breaks Jellyfin pictures loading in browsers, desactivate it only for jellyfin : Go into Dark Reader settings while you have the Jellyfin page open (firefox menu bar), click to uncheck Jellyfin URL.
 
-## Need Help?
+### Need Help?
 - Don't hesitate to open an [issue](https://github.com/Damocles-fr/PPJF/issues)
 - **DM me** https://forum.jellyfin.org/u-damocles
 - GitHub https://github.com/Damocles-fr/
