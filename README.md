@@ -55,7 +55,7 @@ This tutorial explain :
 
 ## Recommended : Install LibreWolf (a lighter and Privacy optimised Firefox) or Firefox, for using the next tips and scripts.
 
-	- Not tested with Chrome – using LibreWolf is recommended and easier for the optionals in this setup.
+	- Not tested with Chrome – using LibreWolf is recommended and easier for the next tips and scripts
 	- You can install multiple Firefox/LibreWolf/Nightly/Any fork on the same computer. I strongly recommend to install LibreWolf separately from your main browser.
 	- This way you can launch Jellyfin directly in full-screen mode and/or hide the browser menu bar, as well as enabling separate configurations such as a default zoom of 120%, differents firefox addons for this browser etc...
 	- This also allows to use the Optional feature to start Jellyfin server automatically while launching the web interface and to stop jellyfin server after closing the window.
