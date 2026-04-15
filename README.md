@@ -51,7 +51,7 @@ This tutorial explain :
 - https://librewolf.net/installation/windows/
 - Default path: `C:\Program Files\LibreWolf`
 
-## If you want Local Files Links in jellyfin media info
+## If you want Local Files/folders Links in jellyfin media info
 
 	--- Security Notice ---
 	- For the Optional local folder link, you need to install "native-app-setup.exe" and the firefox extension "Local Filesystem Links" by austrALIENsun, AWolf
