@@ -128,10 +128,13 @@ https://addons.mozilla.org/en-US/firefox/addon/autofullscreen/
 - Or you can just Bookmark Jellyfin or make it the start page of Librewolf
 
 ## Swift Selection Search by Daniel Lobo
-https://addons.mozilla.org/fr/firefox/addon/swift-selection-search/
-With this extension, when you select a text in the browser, like a movie title or the name of an actor, a box appear with the logo of websites.
+- https://addons.mozilla.org/fr/firefox/addon/swift-selection-search/
+- With this extension, when you select a text in the browser, like a movie title or the name of an actor, a box appear with the logo of websites.
 - Click on it and it automatically go to a new tab and search on the website the selected text
 You can Add IMDB, Youtube, Wikipedia, Steam, Google Maps, translators, lots of *legal* websites, or you can customize to any website search you want in the extension settings...
+
+## Jellyfin NAS HDD Spin‑Up at Homepage
+- QNAP NAS & SSH : Spin up your NAS hard drives automatically right after a remote client reaches Jellyfin’s home screen so the first Play is fast : [Jellyfin NAS HDD Spin‑Up](https://github.com/Damocles-fr/jellyfin-nas-hdd-spinup)
 
 ---
 
