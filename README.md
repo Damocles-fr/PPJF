@@ -67,6 +67,7 @@ This tutorial explain :
 	[GitHub Repository](https://github.com/feinstaub/webextension_local_filesystem_links)
 	- If you have security concerns, feel free not to install it.
 	- I have no affiliation with this extension or its creators.
+	- It display a notification in private browing mod
 	- Use a separate LibreWolf/Firefox installation to minimize risks.
 - LibreWolf, Install **Local Filesystem Links** extension from :
   - [https://addons.mozilla.org/fr/firefox/addon/local-filesystem-links/](https://addons.mozilla.org/fr/firefox/addon/local-filesystem-links/)
