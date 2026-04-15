@@ -40,7 +40,20 @@ This tutorial explain :
 * [Jellyfin FAQ](https://jellyfin.org/docs/general/server/media/movies) is great, here the naming rules, you don't need to strictly follow those rules, but the more you do, the faster the library scan will be, and the less you will have to manually click Identify media.
 * **Auto detection not working to import new media on linux** : [ty for the tips Jandalslap-\_-](https://www.reddit.com/r/JellyfinCommunity/comments/1r9voiu/comment/o6ifpnc/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 
-## Install LibreWolf (a lighter and Privacy optimised Firefox) or Firefox, for using the next tips and scripts.
+## Mods & Plugins & Skins
+- [A Collection of Awesome Jellyfin Plugins](https://github.com/awesome-jellyfin/awesome-jellyfin)
+- [Jellyfin Episodes Ratings Grid](https://github.com/Damocles-fr/jellyfin-imdb-episodes-heatmap-ratings-grid)
+- [JellyFrame](https://github.com/Jellyfin-PG/JellyFrame) by [grimmdev](https://github.com/grimmdev)
+- [KefinTweaks](https://github.com/ranaldsgift/KefinTweaks) by [ranaldsgift](https://github.com/ranaldsgift)
+
+## AVR volume control with media volume keys, even when bit-streaming on Windows 11 (Denon, Marantz, StormAudio)
+- This is a simple program that captures your PC's volume control buttons and instead sends the commands directly to your home theater AVR. The main benefit of this is that most people when watching video on their HTPC use audio bit-streaming for things like Dolby Digital and DTS audio formats. When you are bit-streaming, the volume control on your HTPC does not work for the bit-streamed audio. This means you can't use the convienent volume control buttons on your wireless keyboard or handheld remote control to control your playback volume. So I use this :
+- [HTPCAVRVolume-win11](https://github.com/Damocles-fr/HTPCAVRVolume-win11)
+
+## Jellyfin NAS HDD Spin‑Up at Homepage
+- QNAP NAS & SSH : Spin up your NAS hard drives automatically right after a remote client reaches Jellyfin’s home screen so the first Play is fast : [Jellyfin NAS HDD Spin‑Up](https://github.com/Damocles-fr/jellyfin-nas-hdd-spinup)
+
+## Recommended : Install LibreWolf (a lighter and Privacy optimised Firefox) or Firefox, for using the next tips and scripts.
 
 	- Not tested with Chrome – using LibreWolf is recommended and easier for the optionals in this setup.
 	- You can install multiple Firefox/LibreWolf/Nightly/Any fork on the same computer. I strongly recommend to install LibreWolf separately from your main browser.
@@ -134,18 +147,6 @@ https://addons.mozilla.org/en-US/firefox/addon/autofullscreen/
 - Click on it and it automatically go to a new tab and search on the website the selected text
 You can Add IMDB, Youtube, Wikipedia, Steam, Google Maps, translators, lots of *legal* websites, or you can customize to any website search you want in the extension settings...
 
-## Jellyfin NAS HDD Spin‑Up at Homepage
-- QNAP NAS & SSH : Spin up your NAS hard drives automatically right after a remote client reaches Jellyfin’s home screen so the first Play is fast : [Jellyfin NAS HDD Spin‑Up](https://github.com/Damocles-fr/jellyfin-nas-hdd-spinup)
-
-## AVR volume control with media volume keys, even when bit-streaming on Windows 11 (Denon, Marantz, StormAudio)
-- This is a simple program that captures your PC's volume control buttons and instead sends the commands directly to your home theater AVR. The main benefit of this is that most people when watching video on their HTPC use audio bit-streaming for things like Dolby Digital and DTS audio formats. When you are bit-streaming, the volume control on your HTPC does not work for the bit-streamed audio. This means you can't use the convienent volume control buttons on your wireless keyboard or handheld remote control to control your playback volume. So I use this :
-- [HTPCAVRVolume-win11](https://github.com/Damocles-fr/HTPCAVRVolume-win11)
-
-## Mods & Plugins & Skins
-- [A Collection of Awesome Jellyfin Plugins](https://github.com/awesome-jellyfin/awesome-jellyfin)
-- [Jellyfin Episodes Ratings Grid](https://github.com/Damocles-fr/jellyfin-imdb-episodes-heatmap-ratings-grid)
-- [JellyFrame](https://github.com/Jellyfin-PG/JellyFrame) by [grimmdev](https://github.com/grimmdev)
-- [KefinTweaks](https://github.com/ranaldsgift/KefinTweaks) by [ranaldsgift](https://github.com/ranaldsgift)
 ---
 
 ### Need Help?
