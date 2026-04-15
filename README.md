@@ -118,6 +118,7 @@ https://addons.mozilla.org/en-US/firefox/addon/autofullscreen/
 	- Add **Custom scripts** - Run additional .bat files at server startup (ex : MountNetworkDrives, SpinUpDrives...)
 	- Works with Jellyfin Media Player, web browsers (recommended), or you can enter any executable path manually (for using Jellyfin MPV Shim or anything else)
 - Download and follow the instruction from the Readme in : [WIP.JellyfinServiceAutomation.zip](https://github.com/Damocles-fr/PPJF/releases/tag/10.7)
+- IMPORTANT : After each Jellyfin Server updates, go to Windows `services.msc` and set back **Jellyfin** **Startup type** to **Manual** 
 
 ## Customize a shorcut (without Jellyfin Service Automation)
 - On your desktop, right click, new shortcut, enter : ``` "C:\Program Files\LibreWolf\librewolf.exe" http://localhost:8096/web/index.html#/home.html ```
@@ -136,10 +137,16 @@ You can Add IMDB, Youtube, Wikipedia, Steam, Google Maps, translators, lots of *
 ## Jellyfin NAS HDD Spin‑Up at Homepage
 - QNAP NAS & SSH : Spin up your NAS hard drives automatically right after a remote client reaches Jellyfin’s home screen so the first Play is fast : [Jellyfin NAS HDD Spin‑Up](https://github.com/Damocles-fr/jellyfin-nas-hdd-spinup)
 
----
+## AVR volume control with media volume keys, even when bit-streaming on Windows 11 (Denon, Marantz, StormAudio)
+- This is a simple program that captures your PC's volume control buttons and instead sends the commands directly to your home theater AVR. The main benefit of this is that most people when watching video on their HTPC use audio bit-streaming for things like Dolby Digital and DTS audio formats. When you are bit-streaming, the volume control on your HTPC does not work for the bit-streamed audio. This means you can't use the convienent volume control buttons on your wireless keyboard or handheld remote control to control your playback volume. So I use this :
+- [HTPCAVRVolume-win11](https://github.com/Damocles-fr/HTPCAVRVolume-win11)
 
-## IMPORTANT
-- [WIP.JellyfinServiceAutomation] : After each Jellyfin Server updates, go to Windows `services.msc` and set back **Jellyfin** **Startup type** to **Manual** 
+## Mods & Plugins & Skins
+- [A Collection of Awesome Jellyfin Plugins](https://github.com/awesome-jellyfin/awesome-jellyfin)
+- [Jellyfin Episodes Ratings Grid](https://github.com/Damocles-fr/jellyfin-imdb-episodes-heatmap-ratings-grid)
+- [JellyFrame](https://github.com/Jellyfin-PG/JellyFrame) by [grimmdev](https://github.com/grimmdev)
+- [KefinTweaks](https://github.com/ranaldsgift/KefinTweaks) by [ranaldsgift](https://github.com/ranaldsgift)
+---
 
 ### Need Help?
 - Don't hesitate to open an [issue](https://github.com/Damocles-fr/PPJF/issues)
