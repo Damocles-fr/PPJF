@@ -7,7 +7,7 @@
 > <summary><strong>(CLICK TO EXPAND) QUICK INSTALLATION - PPJF - PotPlayer launcher for Jellyfin Web </strong></summary>
 >
 > ## 0) Download
-> - Download PPJF for Jellyfin 10.7 or the **latest for Jellyfin 10.11.+** : [PPJF.10.11.6.zip](https://github.com/Damocles-fr/PPJF/releases/tag/10.11.6)
+> - Download PPJF for Jellyfin 10.7 or the **latest for Jellyfin 10.11.+** : [PPJF.10.11.6.zip](https://github.com/Damocles-fr/PPJF/releases/tag/10.11.6)>
 > => New external player launcher version also compatible with Jellyfin Media Player desktop App, Potplayer or MPC : MPC-JF
 >
 > ## 1) Place required files
