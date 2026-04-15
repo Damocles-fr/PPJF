@@ -1,4 +1,4 @@
-## Guide and tips for Jellyfin launcher & external player on Windows
+## Guide and tips for using Jellyfin on a web browser
 ### => New external player launcher version also compatible with Jellyfin Media Player desktop App, Potplayer or MPC : [MPC-JF](https://github.com/Damocles-fr/MPC-JF)
 ---
 
