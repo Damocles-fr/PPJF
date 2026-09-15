@@ -22,11 +22,11 @@ This tutorial explain :
 
 ## Small tips and tricks
 
+* **Make subtitles less dazzling/distracting** : set the subtitle font color to a light gray instead of pure white. Essential for dark scenes, especially in HDR.
 * **Analyse library takes too long (JF 10.11) :** All seasons of a TV show must be stored together in the single folder that corresponds to that same show. Previously, I had seasons scattered across multiple folders, after moving them all into the correct show folder, the library scan time dropped from four hours to a few minutes.
 * **Pin some Collections to the top** : Rename the Collection "sorting title" field so it sorts first alphabetically, handy to separate theme/studio Collections from a long list of sagas and keep them at the top. And/or use "• " in the "title" field to also visually separate them from the rest.
 * **Use the generated splashscreen for nice Library/Collection card covers** : Jellyfin generates a splash screen image from your media (path : jellyfin/database/data/splashscreen.png). Feed it into Jellyfin Cover Maker ( [JF Cover Maker](https://jfcovers.jan.run/) ) to create great-looking Library tiles. After each library scan, the splashscreen.png change, so you can grab different variants for different Libraries.
 * **Remove items from Home → Continue Watching** **/ Next Up** : you can do it with KefinTweaks plugin (adds a remove button), but you can also do it manually by quickly toggling the watched status : click the checkmark to mark played then immediately mark unplayed. After refreshing the Home screen, the item disappears and isn't consider as watched. For Next Up, maybe it needs to be done to the whole TV show checkmark.
-* **Make subtitles less dazzling/distracting** : set the subtitle font color to a light gray instead of pure white. Essential for dark scenes, especially in HDR.
 * **English posters, local-language overview** : set the Library’s metadata language to English, run Refresh metadata with Replace all metadata and Replace existing images checked. Then switch the Library metadata language back to your language and run Refresh metadata again with Replace all metadata enabled but without checking replacing images.
 * **Edit a user’s preferences without logging in as them** : Dashboard → Users → open a user → click “Edit this user’s profile, image and personal preferences.”
 * Also, update the library display order for each user (it's not always the same as the admin, ty for the tips CordedMink2).
@@ -39,6 +39,7 @@ This tutorial explain :
 * **Metadata isn’t being updated when refreshing**, double-check that the metadata isn’t locked. Also, when locking metadata on a collection, it seems to lock metadata on all items in the collection. (ty for the tips glandix)
 * [Jellyfin FAQ](https://jellyfin.org/docs/general/server/media/movies) is great, here the naming rules, you don't need to strictly follow those rules, but the more you do, the faster the library scan will be, and the less you will have to manually click Identify media.
 * **Auto detection not working to import new media on linux** : [ty for the tips Jandalslap-\_-](https://www.reddit.com/r/JellyfinCommunity/comments/1r9voiu/comment/o6ifpnc/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+* Meilisearch tip: It searches tags and synopsis, but synopses are usually available in one language only and tags are in English, so search accuracy drops for non-English users. Fix: push a synonym dictionary into Meilisearch with translations of every tag plus common nouns in whatever languages you need. Add multilingual stop words too (like "the", "and", "the movie where... there's some..."). Search quality jumps massively.
 
 ## Mods & Plugins & Skins
 - [A Collection of Awesome Jellyfin Plugins](https://github.com/awesome-jellyfin/awesome-jellyfin)
