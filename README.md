@@ -1,5 +1,5 @@
 ## Guide and tips for Jellyfin
-### => I moved the external player launcher, new version also compatible with Jellyfin Media Player desktop App, Potplayer or MPC : [MPC-JF](https://github.com/Damocles-fr/MPC-JF)
+### => I moved the external player launcher, new version also compatible with Jellyfin Media Player desktop App, Potplayer, VLC or MPC : [MPC-JF](https://github.com/Damocles-fr/MPC-JF)
 ---
 
 This tutorial explain :
