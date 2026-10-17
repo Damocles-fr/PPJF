@@ -1,12 +1,12 @@
 ## Guide and tips for Jellyfin
-### => I moved the external player launcher, new version also compatible with Jellyfin Media Player desktop App, Potplayer, VLC or MPC : [MPC-JF](https://github.com/Damocles-fr/MPC-JF)
+### => I moved the external player launcher, new version also compatible with Jellyfin Media Player desktop App, Potplayer, VLC or MPC : [PlayBridge](https://github.com/Damocles-fr/PlayBridge)
 ---
 
 This tutorial explain :
 
     Tips and tricks for Jellyfin
 	
-	Launch medias from the Jellyfin web interface directly with PotPlayer, MPC... : https://github.com/Damocles-fr/MPC-JF
+	Launch medias from the Jellyfin web interface directly with PotPlayer, MPC... : https://github.com/Damocles-fr/PlayBridge
 
     Clickable link to Windows File Explorer for the corresponding media (from the Jellyfin media information panel)
 
