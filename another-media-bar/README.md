@@ -27,6 +27,10 @@ One file, pasted into the JavaScript Injector plugin. No iframe, no plugin, no f
 - Instant start: the previous pool is kept in the browser, the next visit shows its first slide straight away (images already cached) while the new pool loads in the background.
 - No webfont, no icon font download: the page's own font and icons are reused.
 
+## Requirements
+
+Jellyfin 12 web client (modern or legacy layout), JavaScript Injector plugin. Works with ElegantFin and the ElegantFin JF12 companion stylesheet. KefinTweaks v0.5+ only for the KefinTweaks source. Items need a backdrop and a clear logo to be shown.
+
 ## Install
 
 1. Dashboard > Plugins > JavaScript Injector > Add Script.
@@ -91,10 +95,6 @@ Edit the `CONFIG` block at the top of the script. Settings are grouped: source, 
 | `IMAGE_QUALITY_MOBILE` | `82` | Image quality on touch screens, phones and tablets |
 
 If a KefinTweaks row name is wrong, the browser console (F12) lists the available rows with their ids.
-
-## Requirements
-
-Jellyfin 12 web client (modern or legacy layout), JavaScript Injector plugin. Works with ElegantFin and the ElegantFin JF12 companion stylesheet. KefinTweaks v0.5+ only for the KefinTweaks source. Items need a backdrop and a clear logo to be shown.
 
 ## Credits
 
