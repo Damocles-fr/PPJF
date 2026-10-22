@@ -4,6 +4,12 @@ A lightweight spotlight bar for the top of the Jellyfin 12 Home screen. It shows
 
 One file, pasted into the JavaScript Injector plugin. No iframe, no plugin, no file to copy on the server, no change to `index.html`.
 
+
+<p align="center">
+  <img src="./anothermb.webp" alt="Android view" width="900"><br>
+</p>
+
+
 ## Features
 
 - Backdrop from the very top of the page. While the page is at the top, the theme's header background makes way for one smooth shade that starts at the top edge and ends a little below the menu, with no step at the header's edge; the theme's header comes back as soon as you scroll. Everything fades into the same page background: top, right side (a soft halo that never goes fully dark), and a long progressive fade behind the first row.
